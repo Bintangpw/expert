@@ -493,7 +493,7 @@ var gform;gform||(document.addEventListener("gform_main_scripts_loaded",function
 
     <header id="header" class="clearfix">
         <div class="wrap normal"> 
-            <a id="logo" href="/"><img
+            <a id="logo" href="/"><img style="width: 170px;" class="ml-5"
                     src="/depresi-assets/wp-content/themes/mha_s2s/assets/images/mha-logo.png" alt="MHA Screening" /></a>
             <div id="utility-menu" class="utility-menu relative">
                 <div id="search-header"> 
@@ -503,7 +503,7 @@ var gform;gform||(document.addEventListener("gform_main_scripts_loaded",function
                     </button>
                 </div>
                 <a href="/login" class="button text-dark"> 
-                    <strong>Log In</strong>
+                    {{-- <strong>Log In</strong> --}}
                 </a>
             </div>
             <nav id="navigation" class="main-navigation" role="navigation" aria-label="Top Menu">

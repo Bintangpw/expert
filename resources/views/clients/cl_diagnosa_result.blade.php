@@ -5,9 +5,6 @@
 
     <div class="container fs-6">
         <div class="row mx-auto my-4" style="width: 100%">
-            <div >
-                <a href="/" class="btn btn-primary flex w-100"> KEMBALI</a>
-            </div>
             <hr class="my-5">
             <div class="col-lg-10 mx-auto" style="width: 100%">
             <table class="table-warning" style="width: 100%">
@@ -24,7 +21,9 @@
                     <th scope="row">1</th>
                     <td>{{ $diagnosa->diagnosa_id }}</td>
                     <td> {{ $diagnosa_dipilih["kode_depresi"]->kode_depresi }} | {{ $diagnosa_dipilih["kode_depresi"]->depresi }}</td>
-                    <td>{{ ($diagnosa_dipilih["value"] * 100) }} %</td>
+                    {{-- <td>{{ ($diagnosa_dipilih["value"] * 100) }} %</td> --}}
+                    <td>{{ (round(($hasil["value"] * 100), 2)) }} %</td>
+                    
                   </tr>
                 </tbody>
             </table>
@@ -127,7 +126,10 @@
                   </div>
             </div>
         </div>
-        @include('components.cl_article')
+        {{-- @include('components.cl_article') --}}
+            <div >
+                <a href="/" class="btn btn-primary flex w-100"> KEMBALI</a>
+            </div>
        </div>
     </div>
 @endsection

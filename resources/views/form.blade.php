@@ -47,7 +47,7 @@ var gform;gform||(document.addEventListener("gform_main_scripts_loaded",function
 		rel="stylesheet" />
 	<link media="print" href="depresi-assets/wp-content/cache/autoptimize/css/autoptimize_5653ccbbff2bf3fde17022871919df8b.css"
 		rel="stylesheet" />
-	<title>Diagnosa Tingkat Depresi</title>
+	<title>Diagnosa Gangguan Makanan</title>
 	<meta name="description"
 		content="Take our depression test if you are feeling overwhelming sadness—it&#039;s free, quick, confidential, and scientifically validated." />
 	<link rel="canonical" href="index.html" />
@@ -658,7 +658,7 @@ var gform;gform||(document.addEventListener("gform_main_scripts_loaded",function
 						<ul id="main-menu-buttons" class="menu">
 							<li id="menu-item-400"
 								class="menu-item menu-item-type-post_type menu-item-object-page menu-item-400"><a
-									href="/form">Cek Tingkat Depresi Kamu</a></li>
+									href="/form">Cek Gangguan Makanan Kamu</a></li>
 						</ul>
 					</div>
 				</nav>
@@ -669,7 +669,7 @@ var gform;gform||(document.addEventListener("gform_main_scripts_loaded",function
 				<div class="wrap normal">
 					<!-- <div class="bubble round-tl mobile-wide mint"><div class="inner"><h1>Take a Mental Health Test</h1><div class="text"><p>Online screening is one of the quickest and easiest ways to determine whether you are experiencing symptoms of a mental health condition.</p><p><strong>Mental health conditions, such as depression or anxiety, are real, common and treatable. And recovery is possible.</strong></p></div></div></div> -->
 					<div class="page-heading plain">
-						<h1 class="entry-title">Diagnosa Tingkat Depresi</h1>
+						<h1 class="entry-title">Diagnosa Gangguan Makanan</h1>
 					</div>
 				</div>
 				<div class="wrap medium">
@@ -694,7 +694,7 @@ var gform;gform||(document.addEventListener("gform_main_scripts_loaded",function
 												<li id="field_1_4"
 													class="gfield gfield_html gfield_html_formatted gfield_no_follows_desc field_sublabel_below field_description_above gfield_visibility_visible"
 													data-js-reload="field_1_4">
-													<p><strong>Dalam 2 minggu terakhir</strong>, seberapa sering masalah-masalah berikut ini mengganggu kamu?</p>
+													<p><strong>Dalam 1 bulan terakhir</strong>, seberapa sering masalah-masalah berikut ini mengganggu kamu?</p>
 													<p>Tidak semua field harus diisi, jadi pastikan untuk memberikan jawaban yang tepat sesuai dengan pengalamanmu.</p>
 												</li>
 												<li id="field_1_38"
@@ -1900,313 +1900,12 @@ var gform;gform||(document.addEventListener("gform_main_scripts_loaded",function
 		</main>
 		<footer id="footer" class="clear">
 			<div id="smart-footer">
-				<div class="wrap normal">
-					<div id="footer-left">
-						<div id="footer-sign-up" class="bubble round-bl cerulean">
-							<div class="inner">
-								<div class="text-blue">
-									<h3>Sign Up for our Newsletter</h3>
-									<p>Learn about opportunities to help change the conversation around mental health.
-									</p>
-								</div>
-								<div class="form-container line-form blue">
-									<div class='gf_browser_safari gform_wrapper gform_legacy_markup_wrapper'
-										id='gform_wrapper_4'>
-										<form method='post' enctype='multipart/form-data' target='gform_ajax_frame_4'
-											id='gform_4'
-											action='https://screening.mhanational.org/screening-tools/depression/'
-											novalidate>
-											<div class='gform_body gform-body'>
-												<ul id='gform_fields_4'
-													class='gform_fields top_label form_sublabel_below description_below'>
-													<li id="field_4_1"
-														class="gfield float-label field_sublabel_below field_description_below gfield_visibility_visible"
-														data-js-reload="field_4_1"><label class='gfield_label'
-															for='input_4_1'>First Name</label>
-														<div class='ginput_container ginput_container_text'><input
-																name='input_1' id='input_4_1' type='text' value=''
-																class='medium' aria-invalid="false" /></div>
-													</li>
-													<li id="field_4_6"
-														class="gfield gfield--width-full float-label field_sublabel_below field_description_below gfield_visibility_visible"
-														data-js-reload="field_4_6"><label class='gfield_label'
-															for='input_4_6'>Last Name</label>
-														<div class='ginput_container ginput_container_text'><input
-																name='input_6' id='input_4_6' type='text' value=''
-																class='medium' aria-invalid="false" /></div>
-													</li>
-													<li id="field_4_2"
-														class="gfield float-label gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible"
-														data-js-reload="field_4_2"><label class='gfield_label'
-															for='input_4_2'>Email<span class="gfield_required"><span
-																	class="gfield_required gfield_required_asterisk">*</span></span></label>
-														<div class='ginput_container ginput_container_email'> <input
-																name='input_2' id='input_4_2' type='email' value=''
-																class='medium' aria-required="true"
-																aria-invalid="false" /></div>
-													</li>
-													<li id="field_4_4"
-														class="gfield float-label field_sublabel_below field_description_below gfield_visibility_visible"
-														data-js-reload="field_4_4"><label class='gfield_label'
-															for='input_4_4'>Phone Number (Optional)</label>
-														<div class='ginput_container ginput_container_text'><input
-																name='input_4' id='input_4_4' type='text' value=''
-																class='medium' aria-invalid="false" /></div>
-													</li>
-													<li id="field_4_7"
-														class="gfield gfield--width-full gform_hidden field_sublabel_below field_description_below gfield_visibility_visible"
-														data-js-reload="field_4_7">
-														<div class='ginput_container ginput_container_text'><input
-																name='input_7' id='input_4_7' type='hidden'
-																class='gform_hidden' aria-invalid="false" value='' />
-														</div>
-													</li>
-													<li id="field_4_5"
-														class="gfield gfield--width-full field_sublabel_below field_description_below hidden_label gfield_visibility_visible"
-														data-js-reload="field_4_5"><label class='gfield_label'
-															for='input_4_5'>CAPTCHA</label>
-														<div id='input_4_5' class='ginput_container ginput_recaptcha'
-															data-sitekey='6LftXuYZAAAAAOyPYz_3N6shIU7JiSovAbrGHjWf'
-															data-theme='light' data-tabindex='0' data-badge=''></div>
-													</li>
-													<li id="field_4_8"
-														class="gfield gform_validation_container field_sublabel_below field_description_below gfield_visibility_visible"
-														data-js-reload="field_4_8"><label class='gfield_label'
-															for='input_4_8'>Name</label>
-														<div class='ginput_container'><input name='input_8'
-																id='input_4_8' type='text' value=''
-																autocomplete='new-password' /></div>
-														<div class='gfield_description' id='gfield_description_4_8'>This
-															field is for validation purposes and should be left
-															unchanged.</div>
-													</li>
-												</ul>
-											</div>
-											<div class='gform_footer top_label'> <input type='submit'
-													id='gform_submit_button_4' class='gform_button button'
-													value='Submit'
-													onclick='if(window["gf_submitting_4"]){return false;}  if( !jQuery("#gform_4")[0].checkValidity || jQuery("#gform_4")[0].checkValidity()){window["gf_submitting_4"]=true;}  '
-													onkeypress='if( event.keyCode == 13 ){ if(window["gf_submitting_4"]){return false;} if( !jQuery("#gform_4")[0].checkValidity || jQuery("#gform_4")[0].checkValidity()){window["gf_submitting_4"]=true;}  jQuery("#gform_4").trigger("submit",[true]); }' />
-												<input type='hidden' name='gform_ajax'
-													value='form_id=4&amp;title=&amp;description=&amp;tabindex=0' />
-												<input type='hidden' class='gform_hidden' name='is_submit_4'
-													value='1' /> <input type='hidden' class='gform_hidden'
-													name='gform_submit' value='4' /> <input type='hidden'
-													class='gform_hidden' name='gform_unique_id' value='' /> <input
-													type='hidden' class='gform_hidden' name='state_4'
-													value='WyJbXSIsIjdkODliOTcwYTljYWM4NjI3YmU2NTdjNDI2YjFhYzE5Il0=' />
-												<input type='hidden' class='gform_hidden'
-													name='gform_target_page_number_4' id='gform_target_page_number_4'
-													value='0' /> <input type='hidden' class='gform_hidden'
-													name='gform_source_page_number_4' id='gform_source_page_number_4'
-													value='1' /> <input type='hidden' name='gform_field_values'
-													value='' /></div>
-										</form>
-									</div> <iframe style='display:none;width:0px;height:0px;' src='about:blank'
-										name='gform_ajax_frame_4' id='gform_ajax_frame_4'
-										title='This iframe contains the logic required to handle Ajax powered Gravity Forms.'></iframe>
-									<script>gform.initializeOnLoaded(function () { gformInitSpinner(4, 'https://screening.mhanational.org/wp-content/plugins/gravityforms/images/spinner.svg'); jQuery('#gform_ajax_frame_4').on('load', function () { var contents = jQuery(this).contents().find('*').html(); var is_postback = contents.indexOf('GF_AJAX_POSTBACK') >= 0; if (!is_postback) { return; } var form_content = jQuery(this).contents().find('#gform_wrapper_4'); var is_confirmation = jQuery(this).contents().find('#gform_confirmation_wrapper_4').length > 0; var is_redirect = contents.indexOf('gformRedirect(){') >= 0; var is_form = form_content.length > 0 && !is_redirect && !is_confirmation; var mt = parseInt(jQuery('html').css('margin-top'), 10) + parseInt(jQuery('body').css('margin-top'), 10) + 100; if (is_form) { jQuery('#gform_wrapper_4').html(form_content.html()); if (form_content.hasClass('gform_validation_error')) { jQuery('#gform_wrapper_4').addClass('gform_validation_error'); } else { jQuery('#gform_wrapper_4').removeClass('gform_validation_error'); } setTimeout(function () { /* delay the scroll by 50 milliseconds to fix a bug in chrome */ }, 50); if (window['gformInitDatepicker']) { gformInitDatepicker(); } if (window['gformInitPriceFields']) { gformInitPriceFields(); } var current_page = jQuery('#gform_source_page_number_4').val(); gformInitSpinner(4, 'https://screening.mhanational.org/wp-content/plugins/gravityforms/images/spinner.svg'); jQuery(document).trigger('gform_page_loaded', [4, current_page]); window['gf_submitting_4'] = false; } else if (!is_redirect) { var confirmation_content = jQuery(this).contents().find('.GF_AJAX_POSTBACK').html(); if (!confirmation_content) { confirmation_content = contents; } setTimeout(function () { jQuery('#gform_wrapper_4').replaceWith(confirmation_content); jQuery(document).trigger('gform_confirmation_loaded', [4]); window['gf_submitting_4'] = false; wp.a11y.speak(jQuery('#gform_confirmation_message_4').text()); }, 50); } else { jQuery('#gform_4').append(contents); if (window['gformRedirect']) { gformRedirect(); } } jQuery(document).trigger('gform_post_render', [4, current_page]); }); });</script>
-								</div>
-							</div>
-						</div>
-						<div id="footer-social-top" class="footer-social-top footer-social">
-							<div class="menu-social-icons-container">
-								<ul id="social-menu-top" class="menu">
-									<li id="menu-item-421"
-										class="menu-item menu-item-type-custom menu-item-object-custom menu-item-421"><a
-											title="Link to Inspire" target="_blank" rel="noopener"
-											href="http://www.inspire.com/groups/mental-health-america/"><span
-												class="fa fa-inspire" aria-hidden="true"></span></a></li>
-									<li id="menu-item-416"
-										class="menu-item menu-item-type-custom menu-item-object-custom menu-item-416"><a
-											title="Link to Facebook" target="_blank" rel="noopener"
-											href="https://www.facebook.com/mentalhealthamerica"><span
-												class="fa fa-facebook" aria-hidden="true"></span></a></li>
-									<li id="menu-item-417"
-										class="menu-item menu-item-type-custom menu-item-object-custom menu-item-417"><a
-											title="Link to Instagram" target="_blank" rel="noopener"
-											href="https://www.instagram.com/mentalhealthamerica"><span
-												class="fa fa-instagram" aria-hidden="true"></span></a></li>
-									<li id="menu-item-418"
-										class="menu-item menu-item-type-custom menu-item-object-custom menu-item-418"><a
-											title="Link to Twitter" target="_blank" rel="noopener"
-											href="https://www.twitter.com/mentalhealtham"><span class="fa fa-twitter"
-												aria-hidden="true"></span></a></li>
-									<li id="menu-item-419"
-										class="menu-item menu-item-type-custom menu-item-object-custom menu-item-419"><a
-											title="Link to Pinterest" target="_blank" rel="noopener"
-											href="https://www.pinterest.com/mentalhealtham/pins/"><span
-												class="fa fa-pinterest" aria-hidden="true"></span></a></li>
-									<li id="menu-item-420"
-										class="menu-item menu-item-type-custom menu-item-object-custom menu-item-420"><a
-											title="Link to Youtube" target="_blank" rel="noopener"
-											href="https://www.youtube.com/user/mentalhealthamerica"><span
-												class="fa fa-youtube" aria-hidden="true"></span></a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div id="footer-right">
-						<div class="menu-main-menu-container">
-							<ul id="footer-menu" class="menu">
-								<li
-									class="heading left-col menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-406">
-									<a href="#">Diagnosa Tingkat Depresi</a>
-									<ul class="sub-menu">
-										<li
-											class="wide bold menu-item menu-item-type-post_type menu-item-object-page menu-item-16362">
-											<a href="/gejala">Gejala</a></li>
-										<li
-											class="wide bold menu-item menu-item-type-post_type menu-item-object-page menu-item-3054">
-											<a href="/depresi">Depresi</a></li>
-
-									</ul>
-								</li>
-								<li
-									class="heading menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-405">
-									<a href="/">Home</a>
-								</li>
-								<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-404"><a
-										href="#">About</a></li>
-
-							</ul>
-						</div>
-					</div>
-					<div id="footer-social-bottom" class="footer-social-top footer-social">
-						<div class="menu-social-icons-container">
-							<ul id="social-menu-bottom" class="menu">
-								<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-421"><a
-										title="Link to Inspire" target="_blank" rel="noopener"
-										href="http://www.inspire.com/groups/mental-health-america/"><span
-											class="fa fa-inspire" aria-hidden="true"></span></a></li>
-								<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-416"><a
-										title="Link to Facebook" target="_blank" rel="noopener"
-										href="https://www.facebook.com/mentalhealthamerica"><span class="fa fa-facebook"
-											aria-hidden="true"></span></a></li>
-								<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-417"><a
-										title="Link to Instagram" target="_blank" rel="noopener"
-										href="https://www.instagram.com/mentalhealthamerica"><span
-											class="fa fa-instagram" aria-hidden="true"></span></a></li>
-								<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-418"><a
-										title="Link to Twitter" target="_blank" rel="noopener"
-										href="https://www.twitter.com/mentalhealtham"><span class="fa fa-twitter"
-											aria-hidden="true"></span></a></li>
-								<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-419"><a
-										title="Link to Pinterest" target="_blank" rel="noopener"
-										href="https://www.pinterest.com/mentalhealtham/pins/"><span
-											class="fa fa-pinterest" aria-hidden="true"></span></a></li>
-								<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-420"><a
-										title="Link to Youtube" target="_blank" rel="noopener"
-										href="https://www.youtube.com/user/mentalhealthamerica"><span
-											class="fa fa-youtube" aria-hidden="true"></span></a></li>
-							</ul>
-						</div>
-					</div>
 					<div class="clear"></div>
 				</div>
 			</div>
-
 		</footer>
 	</div>
-	<div id="mobile-menu-container">
-		<div class="inner">
-			<div class="menu-main-menu-container">
-				<ul id="mobile-menu" class="menu">
-					<li
-						class="heading left-col menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-406">
-						<a href="#">Mental Health Information</a>
-						<ul class="sub-menu">
-							<li
-								class="wide bold menu-item menu-item-type-post_type menu-item-object-page menu-item-16362">
-								<a href="https://screening.mhanational.org/mental-health-101/">Mental Health 101</a>
-							</li>
-							<li
-								class="wide bold menu-item menu-item-type-post_type menu-item-object-page menu-item-3054">
-								<a href="https://screening.mhanational.org/depression/">Depression</a></li>
-							<li
-								class="wide bold menu-item menu-item-type-post_type menu-item-object-page menu-item-3158">
-								<a href="https://screening.mhanational.org/anxiety/">Anxiety</a></li>
-							<li
-								class="wide bold menu-item menu-item-type-post_type menu-item-object-page menu-item-3059">
-								<a href="https://screening.mhanational.org/bipolar/">Bipolar</a></li>
-							<li
-								class="wide bold menu-item menu-item-type-post_type menu-item-object-page menu-item-3156">
-								<a href="https://screening.mhanational.org/psychosis/">Psychosis</a></li>
-							<li
-								class="wide bold menu-item menu-item-type-post_type menu-item-object-page menu-item-3157">
-								<a href="https://screening.mhanational.org/addiction/">Addiction</a></li>
-							<li
-								class="wide bold menu-item menu-item-type-post_type menu-item-object-page menu-item-3155">
-								<a href="https://screening.mhanational.org/eating-disorder/">Eating Disorders</a></li>
-							<li
-								class="wide bold menu-item menu-item-type-post_type menu-item-object-page menu-item-3154">
-								<a href="https://screening.mhanational.org/ptsd/">PTSD</a></li>
-							<li
-								class="wide bold menu-item menu-item-type-post_type menu-item-object-page menu-item-3152">
-								<a href="https://screening.mhanational.org/self-harm/">Self-Harm</a></li>
-							<li
-								class="wide bold menu-item menu-item-type-post_type menu-item-object-page menu-item-16363">
-								<a href="https://screening.mhanational.org/suicide/">Suicide</a></li>
-							<li
-								class="bold wide menu-item menu-item-type-post_type menu-item-object-page menu-item-3150">
-								<a href="https://screening.mhanational.org/youth/">Youth</a></li>
-							<li
-								class="wide bold menu-item menu-item-type-post_type menu-item-object-page menu-item-3153">
-								<a href="https://screening.mhanational.org/friends-family/">Friends &#038; Family</a>
-							</li>
-						</ul>
-					</li>
-					<li
-						class="heading menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-405">
-						<a href="#">Resources</a>
-						<ul class="sub-menu">
-							<li
-								class="bold wide menu-item menu-item-type-post_type menu-item-object-page menu-item-766">
-								<a href="https://screening.mhanational.org/diy/">DIY Tools</a></li>
-							<li
-								class="bold wide menu-item menu-item-type-post_type menu-item-object-page menu-item-768">
-								<a href="https://screening.mhanational.org/get-help/">Get Help</a></li>
-							<li
-								class="bold wide menu-item menu-item-type-post_type menu-item-object-page menu-item-767">
-								<a href="https://screening.mhanational.org/treatment/">Learn about treatment &#038;
-									recovery</a></li>
-							<li
-								class="bold wide menu-item menu-item-type-post_type menu-item-object-page menu-item-769">
-								<a href="https://screening.mhanational.org/connect/">Connect with others</a></li>
-							<li
-								class="bold wide cache-bust menu-item menu-item-type-post_type menu-item-object-diy menu-item-110032">
-								<a href="https://screening.mhanational.org/diy/overcoming-negative-thoughts/">Overcoming
-									Negative Thoughts</a></li>
-							<li
-								class="bold wide cache-bust menu-item menu-item-type-post_type menu-item-object-page menu-item-110957">
-								<a href="https://screening.mhanational.org/changing-thoughts-with-an-ai-assistant/">Changing
-									Thoughts with an AI Assistant</a></li>
-							<li
-								class="bold wide menu-item menu-item-type-post_type menu-item-object-page menu-item-30361">
-								<a href="https://screening.mhanational.org/la-salud-mental-informacion-y-recursos/">Recursos
-									en español / Resources in Spanish</a></li>
-						</ul>
-					</li>
-					<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-404"><a
-							href="https://screening.mhanational.org/about-mha-screening/">About Us</a></li>
-					<li class="footer-only menu-item menu-item-type-custom menu-item-object-custom menu-item-52279"><a
-							target="_blank" rel="noopener"
-							href="https://mhanational.org/partner-us?ref=screening">Partner With Us</a></li>
-					<li class="footer-only menu-item menu-item-type-custom menu-item-object-custom menu-item-53210"><a
-							target="_blank" rel="noopener"
-							href="https://mhanational.org/get-involved/contact-us?ref=screening">Contact Us</a></li>
-					<li
-						class="button red footer-only menu-item menu-item-type-custom menu-item-object-custom menu-item-414">
-						<a target="_blank" rel="noopener"
-							href="https://mhanational.org/donate-mental-health-america?ref=screening">Support Our
-							Work</a></li>
-				</ul>
-			</div>
-			<ul id="mobile-menu-footer" class="menu last secondary">
-				<li class="menu-item"><a href="/log">Log In</a></li>
-			</ul>
-		</div>
-	</div>
+
 	<script
 		id='process_mhaActivity-js-extra'>var do_mhaActivity = { "ajaxurl": "https:\/\/screening.mhanational.org\/wp-admin\/admin-ajax.php" };</script>
 	<script src='depresi-assets/wp-content/plugins/mha_activity/mha_activitye084.js?ver=1672585009'
