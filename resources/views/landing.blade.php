@@ -94,7 +94,7 @@
                     <ul>
                         <li><a href="/form">Diagnosa</a></li>
                         <li><a href="/gejala">Gejala</a></li>
-                        <li><a href="/depresi">Depresi</a></li>
+                        <li><a href="/depresi">Gangguan Makan</a></li>
                     </ul>
                 </li>
                 {{-- <li>
@@ -127,13 +127,19 @@
             <div class="background-parallax" style="background-image: url('landing/img/full-2-new.jpg')"
                 data-enllax-ratio=".5" data-enllax-type="background" data-enllax-direction="vertical"></div>
             <div class="hero-center-text-wrap">
-                <div class="container text-left">
-                    <div class="row">
+                <div class="container text-left ml-5">
+                    <div class="row ml-5">
                         <div class="col-md-12">
                             <br>
                             <br>
-                            <h1 class="parallax-fade-top-2 typed">Cek Tingkat <strong>Depresimu</strong>
-                                Sekarang!<br><span id="typed-1"></span></h1>
+                            <h1 class="parallax-fade-top-2 typed">
+                                {{-- Cek Tingkat <strong>gangguan makanmu</strong>
+                                Sekarang!<br> --}}
+                                <span id="typed-1">
+                                    Cek Tingkat <strong style="-webkit-text-stroke: 0">gangguan makan</strong>
+                                Sekarang!<br>
+                                </span>
+                            </h1>
                             <br>
                             <style>
                                 .btn-glow:hover {
@@ -143,7 +149,7 @@
                               </style>
                               <div style="margin-left: 12px">
 
-                                <a href="/form" class="btn btn-dark btn-glow" role="button" style="color: rgb(218, 116, 22);">
+                                <a href="/form" class="btn btn-light btn-glow" role="button" style="color: rgb(218, 116, 22);">
                                   Isi form
                                 </a>
                               </div>
@@ -179,11 +185,9 @@
                         <div id="owl-sep-1" class="owl-carousel owl-theme">
                             <div class="item">
                                 <div class="quote">
-                                    <p class="lead">"DepresiCheck adalah situs yang membantu mahasiswa akhir mengukur
-                                        tingkat depresi mereka dengan mengisi formulir pertanyaan. Kami percaya bahwa
-                                        mengetahui tingkat depresi Anda adalah langkah pertama dalam menemukan solusi
-                                        dan menangani masalah ini. Selain itu, kami juga menyediakan informasi dan
-                                        sumber daya yang berguna untuk membantu Anda dalam mengelola depresi Anda."</p>
+                                    <p class="lead">"HealthyNourish adalah sebuah situs yang membantu dalam diagnosis gangguan makan. 
+                                        Gangguan makan merupakan kondisi yang mempengaruhi pola makan seseorang dan dapat menyebabkan dampak negatif pada kesehatan fisik dan mental. 
+                                        Dengan menggunakan HealthyNourish, Anda dapat mengukur tingkat keparahan gangguan makan Anda dengan mengisi formulir pertanyaan yang disediakan."</p>
                                     <h6>
                                         <h6>&rarr;</h6>
                                     </h6>
@@ -191,16 +195,16 @@
                             </div>
                             <div class="item">
                                 <div class="quote">
-                                    <p class="lead">"Ingatlah bahwa DepresiCheck bukanlah pengganti layanan
+                                    <p class="lead">"Ingatlah bahwa HealthyNourish bukanlah pengganti layanan
                                         profesional, jadi pastikan untuk selalu mencari bantuan medis yang tepat jika
-                                        Anda mengalami gejala depresi."</p>
+                                        Anda mengalami gejala gangguan makan."</p>
                                     <h6>&rarr;</h6>
                                 </div>
                             </div>
                             <div class="item">
                                 <div class="quote">
-                                    <p class="lead">"Kami membuat DepresiCheck sebagai proyek akhir untuk membantu
-                                        teman-teman kami yang mungkin mengalami depresi untuk mengetahui tingkat depresi
+                                    <p class="lead">"Kami membuat HealthyNourish sebagai proyek akhir untuk membantu
+                                        teman-teman kami yang mungkin mengalami gangguan makan untuk mengetahui tingkat gangguan makan
                                         mereka dan menemukan solusi sesuai."</p>
                                     <h6>&rarr;</h6>
                                 </div>
@@ -308,7 +312,7 @@
                             <h2 class="mb-0">
                                 <button class="btn btn-link" type="button" data-toggle="collapse"
                                     data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    Apa itu DepresiCheck?
+                                    Apa itu HealthyNourish?
                                 </button>
                             </h2>
                         </div>
@@ -316,7 +320,7 @@
                         <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
                             data-parent="#faqAccordion">
                             <div class="card-body">
-                                DepresiCheck adalah sebuah situs yang membantu mahasiswa akhir mengukur tingkat depresi
+                                HealthyNourish adalah sebuah situs yang membantu mahasiswa akhir mengukur tingkat gangguan makan
                                 mereka dengan mengisi formulir pertanyaan. Kami menyediakan solusi sesuai setelah
                                 mahasiswa mengisi formulir tersebut.
                             </div>
@@ -327,15 +331,15 @@
                             <h2 class="mb-0">
                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
                                     data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    Siapa yang bisa mengakses DepresiCheck?
+                                    Siapa yang bisa mengakses HealthyNourish?
                                 </button>
                             </h2>
                         </div>
                         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
                             data-parent="#faqAccordion">
                             <div class="card-body">
-                                DepresiCheck ditujukan untuk mahasiswa akhir, namun siapa saja dapat mengakses situs ini
-                                dan mengisi formulir untuk mengetahui tingkat depresi mereka.
+                                HealthyNourish ditujukan untuk mahasiswa akhir, namun siapa saja dapat mengakses situs ini
+                                dan mengisi formulir untuk mengetahui tingkat gangguan makan mereka.
                             </div>
                         </div>
                     </div>
@@ -344,16 +348,16 @@
                             <h2 class="mb-0">
                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
                                     data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                    Apakah hasil dari DepresiCheck dapat diandalkan?
+                                    Apakah hasil dari HealthyNourish dapat diandalkan?
                                 </button>
                             </h2>
                         </div>
                         <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
                             data-parent="#faqAccordion">
                             <div class="card-body">
-                                Hasil dari DepresiCheck adalah sebuah estimasi dari tingkat depresi seseorang, dan tidak
+                                Hasil dari HealthyNourish adalah sebuah estimasi dari tingkat gangguan makan seseorang, dan tidak
                                 bisa dianggap sebagai diagnosis yang pasti. Kami sangat menyarankan agar seseorang yang
-                                merasa memiliki tingkat depresi yang tinggi untuk segera meminta bantuan profesional.
+                                merasa memiliki tingkat gangguan makan yang tinggi untuk segera meminta bantuan profesional.
                             </div>
                         </div>
                     </div>
@@ -362,7 +366,7 @@
                             <h2 class="mb-0">
                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
                                     data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                    Bagaimana cara mengakses solusi yang ditawarkan DepresiCheck?
+                                    Bagaimana cara mengakses solusi yang ditawarkan HealthyNourish?
                                 </button>
                             </h2>
                         </div>
@@ -370,8 +374,8 @@
                             data-parent="#faqAccordion">
                             <div class="card-body">
                                 Setelah mengisi formulir, mahasiswa akan menerima rekomendasi solusi sesuai dengan
-                                tingkat depresi yang terdeteksi. Kami juga menyediakan tautan ke sumber informasi dan
-                                bantuan profesional yang dapat membantu mahasiswa mengatasi depresi mereka.
+                                tingkat gangguan makan yang terdeteksi. Kami juga menyediakan tautan ke sumber informasi dan
+                                bantuan profesional yang dapat membantu mahasiswa mengatasi gangguan makan mereka.
                             </div>
                         </div>
                     </div>
@@ -463,18 +467,18 @@
     <script>
         // Type text
 
-        var typed = new Typed('#typed-1', {
-            strings: ['diagnosa', 'solusi', 'atasi'],
-            typeSpeed: 45,
-            backSpeed: 0,
-            startDelay: 200,
-            backDelay: 2200,
-            loop: true,
-            loopCount: false,
-            showCursor: true,
-            cursorChar: "_",
-            attr: null
-        });
+        // var typed = new Typed('#typed-1', {
+        //     strings: ['diagnosa', 'solusi', 'atasi'],
+        //     typeSpeed: 45,
+        //     backSpeed: 0,
+        //     startDelay: 200,
+        //     backDelay: 2200,
+        //     loop: true,
+        //     loopCount: false,
+        //     showCursor: true,
+        //     cursorChar: "_",
+        //     attr: null
+        // });
     </script>
     <!-- End Document
 ================================================== -->

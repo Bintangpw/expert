@@ -130,6 +130,7 @@ class DiagnosaController extends Controller
             return 0;
         }
         if (count($cfArr["cf"]) == 1) {
+            // dd($cfArr);
             return [
                 "value" => strval($cfArr["cf"][0]),
                 "kode_depresi" => $cfArr["kode_depresi"][0]
@@ -137,14 +138,22 @@ class DiagnosaController extends Controller
         }
 
         $cfoldGabungan = $cfArr["cf"][0];
+        // dd($cfArr, $cfoldGabungan);
 
         // foreach ($cfArr["cf"] as $cf) {
         //     $cfoldGabungan = $cfoldGabungan + ($cf * (1 - $cfoldGabungan));
         // }
 
+        // MISAL CONTOH CF ADA 2 [0.48, 0.8]
+        // 0.48
+        // 0.8
         for ($i = 0; $i < count($cfArr["cf"]) - 1; $i++) {
             $cfoldGabungan = $cfoldGabungan + ($cfArr["cf"][$i + 1] * (1 - $cfoldGabungan));
+            //1 => = 0.48 + (0.8 * (1 - 0.48))
+            
         }
+
+        // dd($cfoldGabungan);
 
 
         return [
@@ -155,6 +164,7 @@ class DiagnosaController extends Controller
 
     public function diagnosaResult($diagnosa_id)
     {
+        // dd($diagnosa_id);
         $diagnosa = Diagnosa::where('diagnosa_id', $diagnosa_id)->first();
         $gejala = json_decode($diagnosa->kondisi, true);
         $data_diagnosa = json_decode($diagnosa->data_diagnosa, true);
@@ -203,7 +213,7 @@ class DiagnosaController extends Controller
         // dd($nilaiUser);
 
         $cfKombinasi = $this->getCfCombinasi($nilaiPakar, $nilaiUser);
-        // dd($cfKombinasi);
+        dd($cfKombinasi);
         $hasil = $this->getGabunganCf($cfKombinasi);
         // dd($hasil);
 

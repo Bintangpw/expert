@@ -760,10 +760,10 @@ var gform;gform||(document.addEventListener("gform_main_scripts_loaded",function
 		<div class='ginput_container ginput_container_radio'>
 			<ul class='gfield_radio' id='input_{{ $loop->iteration }}'>
 				@foreach($kondisi_user as $kondisi)
-					<li style='font-size: 14px;' class='gchoice gchoice_{{ $loop->parent->iteration }}_{{ $loop->iteration }}'>
+					<li style='font-size: 13px;' class='m-auto p-0 gchoice gchoice_{{ $loop->parent->iteration }}_{{ $loop->iteration }}'>
 						<input name='input_{{ $loop->parent->iteration }}' type='radio' value='{{ $kondisi->nilai }}' id='choice_{{ $loop->parent->iteration }}_{{ $loop->iteration }}'
 						onchange="document.getElementById('kondisi_{{ $item->kode_gejala }}{{ $loop->parent->iteration }}').value = this.value" />
-						<label for='choice_{{ $loop->parent->iteration }}_{{ $loop->iteration }}' id='label_{{ $loop->parent->iteration }}_{{ $loop->iteration }}'>{{ $kondisi->kondisi }}</label>
+						<label class="border-0" for='choice_{{ $loop->parent->iteration }}_{{ $loop->iteration }}' id='label_{{ $loop->parent->iteration }}_{{ $loop->iteration }}'>{{ $kondisi->kondisi }}</label>
 					</li>
 					@endforeach
 					<input type="hidden" name="kondisi[{{ $item->kode_gejala }}]" id="kondisi_{{ $item->kode_gejala }}{{ $loop->iteration }}" value="" />
