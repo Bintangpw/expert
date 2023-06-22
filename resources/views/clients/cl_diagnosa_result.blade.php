@@ -5,7 +5,11 @@
 
     <div class="container fs-6">
         <div class="row mx-auto my-4" style="width: 100%">
-            <hr class="my-5">
+            <ol class="screen-progress-bar clearfix step-3-of-3">
+                <li class="step-1"><span>Informasi<br />Tes</span></li>
+                <li class="step-2"><span>Pertanyaan<br />Tes</span></li>
+                <li class="step-3"><span>Hasil<br />Anda</span></li>
+            </ol>
             <div class="col-lg-10 mx-auto" style="width: 100%">
             <table class="table-warning" style="width: 100%">
                 <thead>

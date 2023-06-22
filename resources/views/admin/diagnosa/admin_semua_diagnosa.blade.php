@@ -14,7 +14,8 @@
                             <th scope="col">#</th>
                             <th scope="col">Diagnosa ID</th>
                             <th scope="col">Tingkat Depresi</th>
-                            <th scope="col">Persentase</th>
+                            {{-- <th scope="col">Persentase</th> --}}
+                            <th scope="col">Aksi</th>
                           </tr>
                         </thead>
                         <tbody>
@@ -32,7 +33,7 @@
                                     <th scope="row">{{ $loop->iteration }}</th>
                                     <td>{{ $item->diagnosa_id }}</td>
                                     <td> {{ $diagnosa_dipilih["kode_depresi"]->kode_depresi }} | {{ $diagnosa_dipilih["kode_depresi"]->depresi }}</td>
-                                    <td>{{ ($diagnosa_dipilih["value"] * 100) }} %</td>
+                                    {{-- <td>{{ ($diagnosa_dipilih["value"] * 100) }} %</td> --}}
                                     <td><a class="p-2" href="{{ route('spk.result', ["diagnosa_id" => $item->diagnosa_id]) }}">Detail</a></td>
                                 </tr>
                             @endforeach

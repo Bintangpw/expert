@@ -676,7 +676,7 @@ var gform;gform||(document.addEventListener("gform_main_scripts_loaded",function
 					<div class="page-intro">
 						<div class='gf_browser_safari gform_wrapper gform_legacy_markup_wrapper' id='gform_wrapper_1'
 							style='display:none'>
-							<<div class='gform_heading'>
+							<div class='gform_heading'>
 								<h3 class="gform_title">Tes Depresi</h3> <span class='gform_description'></span>
 							</div>
 							<form method='post' enctype='multipart/form-data' id='gform_1' action="{{ route('spk.store') }}" novalidate>

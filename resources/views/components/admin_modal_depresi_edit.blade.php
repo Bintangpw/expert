@@ -3,7 +3,7 @@
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <h1 class="modal-title fs-5" id="exampleModalLabel">Ubah Depresi</h1>
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Ubah Gangguan Makan</h1>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
@@ -15,11 +15,11 @@
                 <input type="hidden" name="id" id="id_depresi">
                 <div class="form-floating mb-3 p-2 mx-2">
                     <input type="text" class="form-control" id="kode-depresi" name="kode_depresi" readonly>
-                    <label for="kode-depresi">Kode Depresi</label>
+                    <label for="kode-depresi">Kode Gangguan Makan</label>
                 </div>
                 <div class="form-floating mb-3 p-2 mx-2">
                     <input type="text" class="form-control" id="depresi" name="depresi">
-                    <label for="depresi">Depresi</label>
+                    <label for="depresi">Gangguan Makan</label>
                 </div>
             </div>
             <button type="submit" class="btn btn-primary">ubah</button>
@@ -38,7 +38,7 @@
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <h1 class="modal-title fs-5" id="exampleModalLabel">Tambah Depresi</h1>
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Tambah Gangguan Makan</h1>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
@@ -49,11 +49,11 @@
                 <input type="hidden" name="id" id="id_depresi">
                 <div class="form-floating mb-3 p-2 mx-2">
                     <input type="text" class="form-control" id="kode-depresi" name="kode_depresi" placeholder="kode depresi" required>
-                    <label for="kode-depresi">Kode Depresi</label>
+                    <label for="kode-depresi">Kode Gangguan Makan</label>
                 </div>
                 <div class="form-floating mb-3 p-2 mx-2">
                     <input type="text" class="form-control" id="depresi" name="depresi" placeholder="depresi" required>
-                    <label for="depresi">Depresi</label>
+                    <label for="depresi">Gangguan Makan</label>
                 </div>
             </div>
             <button type="submit" class="btn btn-primary">simpan</button>
