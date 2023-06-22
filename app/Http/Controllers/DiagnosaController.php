@@ -213,7 +213,7 @@ class DiagnosaController extends Controller
         // dd($nilaiUser);
 
         $cfKombinasi = $this->getCfCombinasi($nilaiPakar, $nilaiUser);
-        dd($cfKombinasi);
+        // dd($cfKombinasi);
         $hasil = $this->getGabunganCf($cfKombinasi);
         // dd($hasil);
 
