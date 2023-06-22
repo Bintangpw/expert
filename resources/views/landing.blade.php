@@ -10,7 +10,7 @@
     <!-- Basic Page Needs
  ================================================== -->
     <meta charset="utf-8">
-    <title>Diagnosa Depresi</title>
+    <title>Diagnosa Gangguan Makan</title>
     <meta name="description" content="Professional Creative Template" />
     <meta name="author" content="IG Design">
     <meta name="keywords"
@@ -94,9 +94,9 @@
                         <li><a href="/depresi">Depresi</a></li>
                     </ul>
                 </li>
-                <li>
+                {{-- <li>
                     <a class="shadow-hover" href="/artikel">Artikel</a>
-                </li>
+                </li> --}}
                 <li>
                     <a class="shadow-hover" href="#faq">FAQ</a>
                 </li>
@@ -121,7 +121,7 @@
         <!-- Hero Section -->
 
         <div class="section full-height mob-height">
-            <div class="background-parallax" style="background-image: url('landing/img/full-2.jpg')"
+            <div class="background-parallax" style="background-image: url('landing/img/full-2-new.jpg')"
                 data-enllax-ratio=".5" data-enllax-type="background" data-enllax-direction="vertical"></div>
             <div class="hero-center-text-wrap">
                 <div class="container text-left">
@@ -148,7 +148,7 @@
                     </div>
                 </div>
             </div>
-            <a href="#top-scroll" data-gal="m_PageScroll2id">
+            <a href="#footer" data-gal="m_PageScroll2id">
                 <div class="scroll-to-next">ke bawah <i class="fa fa-long-arrow-down"></i></div>
             </a>
         </div>
@@ -163,7 +163,7 @@
                 <div class="row">
                     <div class="col-md-12 page-center-text-wrap text-center">
                         <h1 class="parallax"><strong>-</strong> Project akhir semester mata kuliah
-                            <strong>-</strong><br><span>sistem pakar</span></h1>
+                            <strong>-</strong><br><span>expert system</span></h1>
                     </div>
                 </div>
             </div>
@@ -383,10 +383,10 @@
 
 
 
-        <div class="section footer padding-top-big background-image-cover"
+        <div id="footer" class="section footer padding-top-big background-dark background-image-cover rounded-top"
             style="background-image: url(img/footer.jpg);">
             <div class="container">
-                <div class="row">
+                {{-- <div class="row">
                     <div class="col-md-12">
                         <img src="landing/img/logo-light.png" alt="logo image" />
                     </div>
@@ -411,14 +411,11 @@
                     </div>
                     <div class="col-md-12 rights my-3">
                     </div>
-                </div>
+                </div> --}}
             </div>
         </div>
 
-
-
-
-        <div class="section footer padding-top-big background-image-cover"
+        {{-- <div class="section footer padding-top-big background-image-cover"
             style="background-image: url(landing/img/footer.jpg);">
             <div class="container">
                 <div class="row">
@@ -448,7 +445,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> --}}
 
     </main>
 
