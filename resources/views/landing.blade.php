@@ -1,12 +1,13 @@
-<!DOCTYPE html>
+@extends('main')
+{{-- <!DOCTYPE html>
 <!--[if IE 8]><html class="no-js lt-ie9" lang="en"> <![endif]-->
 <!--[if gt IE 8]>
 <!-->
 <html class="no-js" lang="en">
 <!--<![endif]-->
 
-<head>
-
+<head> --}}
+@section('external_assets')
     <!-- Basic Page Needs
  ================================================== -->
     <meta charset="utf-8">
@@ -62,8 +63,10 @@
     <link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-72x72.png">
     <link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-114x114.png">
 
+@endsection
+{{-- </head> --}}
 
-</head>
+@section('main_section')
 
 <body class="royal_preloader">
 
@@ -212,8 +215,8 @@
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-md-5 text-center mb-5">
-                        <h4>Kelompok X</h4>
-                        <p class="lead">Sistem Pakar</p>
+                        <h4>Kelompok 3</h4>
+                        <p class="lead">Expert System</p>
                     </div>
                 </div>
             </div>
@@ -221,9 +224,9 @@
                 <div class="row">
                     <div class="col text-center">
                         <div class="team-wrap">
-                            <img src="landing/img/team2.jpg" alt="">
-                            <p>Ketua</p>
-                            <h6>Alfi Atqia Rinjani</h6>
+                            <img class="rounded-5 bg-dark shadow" src="landing/img/team1-new.jpg" alt="foto-1">
+                            <p class="fw-bold">M0520018</p>
+                            <h6>Bintang Putro Wicaksono</h6>
                             <div class="social-team">
                                 <ul class="list-social-team">
                                     <li class="icon-team tipped" data-title="<span>github</span>"
@@ -240,9 +243,9 @@
                     </div>
                     <div class="col mt-4 m-xl-0 text-center">
                         <div class="team-wrap">
-                            <img src="landing/img/team4.jpg" alt="">
-                            <p>Web Development</p>
-                            <h6>Andrian</h6>
+                            <img class="rounded-5 bg-dark shadow" src="landing/img/team2-new.jpg" alt="foto-2">
+                            <p class="fw-bold">M0520019</p>
+                            <h6>Christopher Aaron Widodo</h6>
                             <div class="social-team">
                                 <ul class="list-social-team">
                                     <li class="icon-team tipped" data-title="<span>twitter</span>"
@@ -259,9 +262,9 @@
                     </div>
                     <div class="col mt-4 m-md-0 text-center">
                         <div class="team-wrap">
-                            <img src="landing/img/team3.jpg" alt="">
-                            <p>Design process</p>
-                            <h6>Canggih Wahyu Rinaldi</h6>
+                            <img class="rounded-5 bg-dark shadow" src="landing/img/team3-new.jpg" alt="foto-3">
+                            <p class="fw-bold">M0520024</p>
+                            <h6>Enricho Abrar Ashari</h6>
                             <div class="social-team">
                                 <ul class="list-social-team">
                                     <li class="icon-team tipped" data-title="<span>github</span>"
@@ -377,43 +380,14 @@
             </div>
             </div>
         </section>
-
-
-
-
-
-
-        <div id="footer" class="section footer padding-top-big background-dark background-image-cover rounded-top"
-            style="background-image: url(img/footer.jpg);">
-            <div class="container">
-                {{-- <div class="row">
-                    <div class="col-md-12">
-                        <img src="landing/img/logo-light.png" alt="logo image" />
-                    </div>
-                    <div class="col-md-12 my-4">
-                        <ul class="footer-social">
-                            <li>
-                                <a href="#">Tw</a>
-                            </li>
-                            <li>
-                                <a href="#">Fb</a>
-                            </li>
-                            <li>
-                                <a href="#">G+</a>
-                            </li>
-                            <li>
-                                <a href="#">Vm</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-md-12 mt-5">
-                        <div class="footer-line"></div>
-                    </div>
-                    <div class="col-md-12 rights my-3">
-                    </div>
-                </div> --}}
-            </div>
+        <div id="footer" class="section py-3 m-0 background-dark rounded">
         </div>
+
+
+
+
+
+
 
         {{-- <div class="section footer padding-top-big background-image-cover"
             style="background-image: url(landing/img/footer.jpg);">
@@ -476,6 +450,5 @@
     </script>
     <!-- End Document
 ================================================== -->
-</body>
 
-</html>
+@endsection
