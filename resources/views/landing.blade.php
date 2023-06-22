@@ -92,7 +92,7 @@
                 <li>
                     <a class="text-uppercase shadow-hover curent-shadow" href="#">Menu</a>
                     <ul>
-                        <li><a href="/form-faq">Diagnosa</a></li>
+                        <li><a href="/form">Diagnosa</a></li>
                         <li><a href="/gejala">Gejala</a></li>
                         <li><a href="/depresi">Depresi</a></li>
                     </ul>
@@ -101,10 +101,10 @@
                     <a class="text-uppercase shadow-hover" href="/artikel">Artikel</a>
                 </li> --}}
                 <li>
-                    <a class="text-uppercase shadow-hover" href="#faq">FAQ</a>
+                    <a class="text-uppercase shadow-hover" href="#kontak">Kontak</a>
                 </li>
                 <li>
-                    <a class="text-uppercase shadow-hover" href="#kontak">Kontak</a>
+                    <a class="text-uppercase shadow-hover" href="#faq">FAQ</a>
                 </li>
 
                 @guest()
@@ -143,7 +143,7 @@
                               </style>
                               <div style="margin-left: 12px">
 
-                                <a href="/form-faq"  class="btn btn-dark btn-glow" role="button" style="color: rgb(218, 116, 22);">
+                                <a href="/form" class="btn btn-dark btn-glow" role="button" style="color: rgb(218, 116, 22);">
                                   Isi form
                                 </a>
                               </div>
@@ -211,7 +211,7 @@
             </div>
         </div>
 
-        <div class="section padding-top-big">
+        <div id="kontak" class="section padding-top-big">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-md-5 text-center mb-5">

@@ -72,14 +72,14 @@ Route::get('/form', function () {
     return view('form', $data);
 });
 
-Route::get('/form-faq', function () {
-    $data = [
-        'gejala' => Gejala::all(),
-        'kondisi_user' => KondisiUser::all()
-    ];
+// Route::get('/form-faq', function () {
+//     $data = [
+//         'gejala' => Gejala::all(),
+//         'kondisi_user' => KondisiUser::all()
+//     ];
 
-    return view('faq', $data);
-})->name('cl.form');
+//     return view('faq', $data);
+// })->name('cl.form');
 
 Route::resource('/spk', DiagnosaController::class);
 Route::get('/spk/result/{diagnosa_id}', [DiagnosaController::class, 'diagnosaResult'])->name('spk.result');

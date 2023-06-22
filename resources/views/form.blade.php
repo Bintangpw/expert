@@ -54,7 +54,7 @@ var gform;gform||(document.addEventListener("gform_main_scripts_loaded",function
 	<meta property="og:locale" content="en_US" />
 	<meta property="og:type" content="article" />
 	<meta property="og:title" content="Depression Test" />
-	<meta property="og:description"
+	<meta property="og:description"/>
 
 	<meta property="og:url" content="https://screening.mhanational.org/screening-tools/depression/" />
 	<meta property="og:site_name" content="MHA Screening" />
@@ -618,79 +618,40 @@ var gform;gform||(document.addEventListener("gform_main_scripts_loaded",function
 	</svg>
 	<div id="page" class="site"> <a class="skip-link screen-reader-text" href="#content">Skip to content</a>
 		<header id="header" class="clearfix">
-			<div class="wrap normal"> <a id="logo" href="/"><img
+			<div class="wrap normal"> 
+				<a id="logo" href="/"><img
 						src="depresi-assets/wp-content/themes/mha_s2s/assets/images/mha-logo.png" alt="MHA Screening" /></a>
 				<div id="utility-menu" class="utility-menu relative">
-					<div id="search-header"> <button id="search-toggle" aria-expanded="false"
+					<div id="search-header"> 
+						<button id="search-toggle" aria-expanded="false" disabled
 							aria-controls="search-form" data-href="/search/"> <strong
-								class="screen-reader-text">Search</strong> <span class="icon"></span> </button>
-						<form role="search" method="get" class="search-form"
-							action="https://screening.mhanational.org/"> <label for="mha-search-form"> <span
-									class="screen-reader-text">Search</span> <input type="search" id="mha-search-form"
-									class="search-field" placeholder="Search" value="" name="s" /> </label> <input
-								type="submit" class="search-submit" value="SEARCH SITE" /></form>
-					</div> <span id="sign-in-container"> <button id="sign-in-toggle" class="button" aria-haspopup="true"
-							aria-expanded="false" aria-controls="sign-in-container"> <strong>Log In</strong> </button>
-						<div id="sign-in-hover" aria-controls="sign-in-toggle" aria-label="Toggle Sign In Form">
-							<div class="bubble round-tr bubble-border narrow dark light-blue">
-								<div class="inner clearfix">
-									<div class="sign-up-form form-container line-form blue text-left wide">
-										<div class="intro text-blue">
-											<h3>Log In To Your Account</h3>
-											<p>Sign in to save your own collection of tools and articles.</p>
-										</div>
-										<form name="loginform-header" id="loginform-header"
-											action="https://screening.mhanational.org/wp-login.php?wpe-login=true"
-											method="post">
-											<p class="login-username float-label"> <label for="user_login">Email
-													Address</label> <input type="text" name="log" id="user_login"
-													autocomplete="username" class="input" value="" size="20" /></p>
-											<p class="login-password float-label"> <label
-													for="user_pass">Password</label> <input type="password" name="pwd"
-													id="user_pass" autocomplete="current-password" class="input"
-													value="" size="20" /></p>
-											<p class="login-remember"><label><input name="rememberme" type="checkbox"
-														id="rememberme" value="forever" /> Remember Me</label></p>
-											<p class="login-submit"> <input type="submit" name="wp-submit"
-													id="wp-submit" class="button button-primary" value="Log In" />
-												<input type="hidden" name="redirect_to" value="index.html" /></p>
-										</form>
-										<div class="right existing-account small"> <a class="plain"
-												href="https://screening.mhanational.org/wp-login.php?action=lostpassword">Forgot
-												Password</a> | <a class="plain"
-												href="https://screening.mhanational.org/sign-up">Sign Up</a></div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</span> <button id="mobile-menu-button" class="menu-toggle button" aria-controls="main-menu"
-						aria-label="Toggle Menu" aria-expanded="false"> <span></span> <span></span> <span></span>
-						<span></span> <span></span> <span></span> <strong class="text">Menu</strong> </button>
+								class="screen-reader-text">Search</strong> 
+						</button>
+					</div>
+					<a href="/login" class="button text-dark"> 
+						<strong>Log In</strong>
+					</a>
 				</div>
 				<nav id="navigation" class="main-navigation" role="navigation" aria-label="Top Menu">
 					<div class="menu-main-menu-container">
 						<ul id="main-menu" class="sf-menu">
-							<li id="menu-item-406"
-								class="heading left-col menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-406">
-								<a href="#">Diagnosa Tingkat Depresi</a>
-								<ul class="sub-menu">
-									<li id="menu-item-16362"
-										class="wide bold menu-item menu-item-type-post_type menu-item-object-page menu-item-16362">
-										<a href="#">Gejala</a></li>
-									<li id="menu-item-3054"
-										class="wide bold menu-item menu-item-type-post_type menu-item-object-page menu-item-3054">
-										<a href="#">Depresi</a></li>
-
-								</ul>
-							</li>
 							<li id="menu-item-405"
 								class="heading menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-405">
 								<a href="/">Home</a>
 							</li>
-							<li id="menu-item-404"
-								class="menu-item menu-item-type-post_type menu-item-object-page menu-item-404"><a
-									href="https://screening.mhanational.org/about-mha-screening/">About</a></li>
+							<li id="menu-item-406"
+								class="heading left-col menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-406">
+								<a href="#">Menu</a>
+								<ul class="sub-menu">
+									<li id="menu-item-16362"
+										class="wide bold menu-item menu-item-type-post_type menu-item-object-page menu-item-16362">
+										<a href="/gejala">Gejala</a></li>
+									<li id="menu-item-3054"
+										class="wide bold menu-item menu-item-type-post_type menu-item-object-page menu-item-3054">
+										<a href="/depresi">Depresi</a></li>
 
+								</ul>
+							</li>
 						</ul>
 					</div>
 					<div class="menu-main-menu-buttons-container">
@@ -791,22 +752,24 @@ var gform;gform||(document.addEventListener("gform_main_scripts_loaded",function
 
 
 
-												@foreach($gejala as $item)
-<li id="field_{{ $loop->iteration }}" class="gfield question gfield_contains_required field_sublabel_below field_description_above gfield_visibility_visible" data-js-reload="field_{{ $loop->iteration }}">
-	<label class='gfield_label'>{{ $loop->iteration }}. Apakah anda merasa {{ $item->gejala }}?<span class="gfield_required"><span class="gfield_required gfield_required_asterisk">*</span></span></label>
-	<div class='ginput_container ginput_container_radio'>
-		<ul class='gfield_radio' id='input_{{ $loop->iteration }}'>
-			@foreach($kondisi_user as $kondisi)
-				<li style='font-size: 14px;' class='gchoice gchoice_{{ $loop->parent->iteration }}_{{ $loop->iteration }}'>
-					<input name='input_{{ $loop->parent->iteration }}' type='radio' value='{{ $kondisi->nilai }}' id='choice_{{ $loop->parent->iteration }}_{{ $loop->iteration }}'
-					onchange="document.getElementById('kondisi_{{ $item->kode_gejala }}{{ $loop->parent->iteration }}').value = this.value" />
-					<label for='choice_{{ $loop->parent->iteration }}_{{ $loop->iteration }}' id='label_{{ $loop->parent->iteration }}_{{ $loop->iteration }}'>{{ $kondisi->kondisi }}</label>
-				</li>
-				@endforeach
-				<input type="hidden" name="kondisi[{{ $item->kode_gejala }}]" id="kondisi_{{ $item->kode_gejala }}{{ $loop->iteration }}" value="" />
-		</ul>
-	</div>
-</li>
+
+
+@foreach($gejala as $item)
+	<li id="field_{{ $loop->iteration }}" class="gfield question gfield_contains_required field_sublabel_below field_description_above gfield_visibility_visible" data-js-reload="field_{{ $loop->iteration }}">
+		<label class='gfield_label'>{{ $loop->iteration }}. Apakah anda merasa {{ $item->gejala }}?<span class="gfield_required"><span class="gfield_required gfield_required_asterisk">*</span></span></label>
+		<div class='ginput_container ginput_container_radio'>
+			<ul class='gfield_radio' id='input_{{ $loop->iteration }}'>
+				@foreach($kondisi_user as $kondisi)
+					<li style='font-size: 14px;' class='gchoice gchoice_{{ $loop->parent->iteration }}_{{ $loop->iteration }}'>
+						<input name='input_{{ $loop->parent->iteration }}' type='radio' value='{{ $kondisi->nilai }}' id='choice_{{ $loop->parent->iteration }}_{{ $loop->iteration }}'
+						onchange="document.getElementById('kondisi_{{ $item->kode_gejala }}{{ $loop->parent->iteration }}').value = this.value" />
+						<label for='choice_{{ $loop->parent->iteration }}_{{ $loop->iteration }}' id='label_{{ $loop->parent->iteration }}_{{ $loop->iteration }}'>{{ $kondisi->kondisi }}</label>
+					</li>
+					@endforeach
+					<input type="hidden" name="kondisi[{{ $item->kode_gejala }}]" id="kondisi_{{ $item->kode_gejala }}{{ $loop->iteration }}" value="" />
+			</ul>
+		</div>
+	</li>
 @endforeach
 
 
@@ -814,17 +777,20 @@ var gform;gform||(document.addEventListener("gform_main_scripts_loaded",function
 
 
 
-												<div class='gform_page_footer top_label'>
-													<button type="submit" class='gform_next_button button'>Submit</button>
-													{{-- <a href="/form-faq" class='gform_cancel_button button'>Batal</a> --}}
-
-												</div>
+												{{-- <div class='gform_page_footer top_label'>
+													<button type="submit" class='gform_next_button button'
+													onclick='jQuery("#gform_target_page_number_1").val("2");  jQuery("#gform_1").trigger("submit",[true]); '
+													onkeypress='if( event.keyCode == 13 ){ jQuery("#gform_target_page_number_1").val("2");  jQuery("#gform_1").trigger("submit",[true]); } '>
+														Submit
+													</button>
+												</div> --}}
 
 											</ul>
 										</div>
-										<div class='gform_page_footer top_label'> <input type='button'
+										<div class='gform_page_footer top_label'> 
+											<input type='button'
 												id='gform_next_button_1_17' class='gform_next_button button'
-												value='Next'
+												value='SUBMIT'
 												onclick='jQuery("#gform_target_page_number_1").val("2");  jQuery("#gform_1").trigger("submit",[true]); '
 												onkeypress='if( event.keyCode == 13 ){ jQuery("#gform_target_page_number_1").val("2");  jQuery("#gform_1").trigger("submit",[true]); } ' />
 										</div>
@@ -2089,10 +2055,10 @@ var gform;gform||(document.addEventListener("gform_main_scripts_loaded",function
 									<ul class="sub-menu">
 										<li
 											class="wide bold menu-item menu-item-type-post_type menu-item-object-page menu-item-16362">
-											<a href="#">Gejala</a></li>
+											<a href="/gejala">Gejala</a></li>
 										<li
 											class="wide bold menu-item menu-item-type-post_type menu-item-object-page menu-item-3054">
-											<a href="#">Depresi</a></li>
+											<a href="/depresi">Depresi</a></li>
 
 									</ul>
 								</li>
