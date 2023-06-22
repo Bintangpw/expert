@@ -82,15 +82,15 @@
 
     <nav id="menu-wrap" class="menu-back cbp-af-header">
         <div class="menu">
-            <a href="/">
+            {{-- <a href="/">
                 <div class="logo"></div>
-            </a>
+            </a> --}}
             <ul>
                 <li>
-                    <a class="shadow-hover" href="/dashboard">Dashboard</a>
+                    <a class="text-uppercase shadow-hover" href="/dashboard">Dashboard</a>
                 </li>
                 <li>
-                    <a class="shadow-hover curent-shadow" href="#">Menu</a>
+                    <a class="text-uppercase shadow-hover curent-shadow" href="#">Menu</a>
                     <ul>
                         <li><a href="/form-faq">Diagnosa</a></li>
                         <li><a href="/gejala">Gejala</a></li>
@@ -98,18 +98,18 @@
                     </ul>
                 </li>
                 {{-- <li>
-                    <a class="shadow-hover" href="/artikel">Artikel</a>
+                    <a class="text-uppercase shadow-hover" href="/artikel">Artikel</a>
                 </li> --}}
                 <li>
-                    <a class="shadow-hover" href="#faq">FAQ</a>
+                    <a class="text-uppercase shadow-hover" href="#faq">FAQ</a>
                 </li>
                 <li>
-                    <a class="shadow-hover" href="#kontak">Kontak</a>
+                    <a class="text-uppercase shadow-hover" href="#kontak">Kontak</a>
                 </li>
 
                 @guest()
                 <li>
-                    <a class="shadow-hover" href="/login">Login</span></a>
+                    <a class="text-uppercase shadow-hover" href="/login">Login</span></a>
                 </li>
                 @endguest
             </ul>
@@ -215,8 +215,7 @@
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-md-5 text-center mb-5">
-                        <h4>Kelompok 3</h4>
-                        <p class="lead">Expert System</p>
+                        <h4 class="fw-bold">ANGGOTA KELOMPOK 3</h4>
                     </div>
                 </div>
             </div>
@@ -380,14 +379,43 @@
             </div>
             </div>
         </section>
-        <div id="footer" class="section py-3 m-0 background-dark rounded">
+
+
+
+
+
+
+        <div id="footer" class="section footer padding-top-big background-dark background-image-cover m-0 rounded-top"
+            style="background-image: url(img/footer.jpg);">
+            <div class="container">
+                {{-- <div class="row">
+                    <div class="col-md-12">
+                        <img src="landing/img/logo-light.png" alt="logo image" />
+                    </div>
+                    <div class="col-md-12 my-4">
+                        <ul class="footer-social">
+                            <li>
+                                <a href="#">Tw</a>
+                            </li>
+                            <li>
+                                <a href="#">Fb</a>
+                            </li>
+                            <li>
+                                <a href="#">G+</a>
+                            </li>
+                            <li>
+                                <a href="#">Vm</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-12 mt-5">
+                        <div class="footer-line"></div>
+                    </div>
+                    <div class="col-md-12 rights my-3">
+                    </div>
+                </div> --}}
+            </div>
         </div>
-
-
-
-
-
-
 
         {{-- <div class="section footer padding-top-big background-image-cover"
             style="background-image: url(landing/img/footer.jpg);">

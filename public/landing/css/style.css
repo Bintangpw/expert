@@ -29,7 +29,7 @@ body{
 }
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6{
-	font-family: 'Work Sans', sans-serif;
+	font-family: 'system-ui', sans-serif;
 	font-weight:400;
 	margin-bottom: 0.6rem;
 	line-height: 1.25;
@@ -397,7 +397,7 @@ body.royal_preloader {
 	margin-left:5px;
 	margin-right:5px;
 	color:#c5c5c5;
-	font-family: 'Work Sans';
+	font-family: 'system-ui';
 	font-weight:600;
 	font-size: 12px;
 	line-height:12px;
@@ -482,7 +482,9 @@ body.royal_preloader {
 .menu > ul {
     margin: 0 auto;
     width: auto;
-	float:right;
+	/* float:right; */
+	display: flex;
+	justify-content: space-around;
     list-style: none;
     padding: 0;
     /* IF .menu position=relative -> ul = container width, ELSE ul = 100% width */
@@ -509,7 +511,7 @@ body.royal_preloader {
     text-decoration: none;
     padding: 50px 22px;
     display: block;
-	font-family: 'Work Sans';
+	font-family: 'system-ui';
 	font-weight:600;
 	font-size: 15px;
 	line-height:20px;
@@ -562,7 +564,7 @@ body.royal_preloader {
 	margin-left:10px;
 	margin-right:10px;
 	color:#fff;
-	font-family: 'Work Sans';
+	font-family: 'system-ui';
 	font-weight:600;
 	font-size: 12px;
 	line-height:18px;
@@ -583,7 +585,7 @@ body.royal_preloader {
 	margin-left:10px;
 	margin-right:10px;
 	color: #c5c5c5;
-	font-family: 'Work Sans';
+	font-family: 'system-ui';
 	font-weight: 500;
 	font-size: 13px;
 	line-height: 13px;
@@ -709,7 +711,7 @@ Mobile style's
 		margin-left:10px;
 		margin-right:10px;
 		color:#c5c5c5;
-		font-family: 'Work Sans';
+		font-family: 'system-ui';
 		font-weight:600;
 		font-size: 10px;
 		line-height:18px;
@@ -732,7 +734,7 @@ Mobile style's
 		margin-left:10px;
 		margin-right:10px;
 		color:#c5c5c5;
-		font-family: 'Work Sans';
+		font-family: 'system-ui';
 		font-weight:600;
 		font-size: 10px;
 		line-height:18px;
@@ -1491,7 +1493,7 @@ figure.vimeo a img, figure.youtube a img {
 	z-index: 2;
 }
 .hero-center-text-wrap h1 span{
-	font-family: 'Work Sans', sans-serif;
+	font-family: 'system-ui', sans-serif;
 	font-weight: 800;
 	letter-spacing: 1px;
 	padding-left: 30px;
@@ -1515,7 +1517,7 @@ figure.vimeo a img, figure.youtube a img {
 	display: inline-block;
 }
 .hero-center-text-wrap h2 span{
-	font-family: 'Work Sans', sans-serif;
+	font-family: 'system-ui', sans-serif;
 	font-weight: 800;
 	letter-spacing: 1px;
 	padding-left: 30px;
@@ -1572,7 +1574,7 @@ figure.vimeo a img, figure.youtube a img {
 	z-index: 2;
 }
 .page-center-text-wrap h1 span{
-	font-family: 'Work Sans', sans-serif;
+	font-family: 'system-ui', sans-serif;
 	font-weight: 800;
 	letter-spacing: 1px;
 	font-size: 5vw;
@@ -2195,7 +2197,7 @@ figure.vimeo a img, figure.youtube a img {
 ================================================== */
 
 .tipper { height: 1px; left: -99999px; position: absolute; pointer-events: none; top: -99999px; width: 1px;z-index:100000; }
-.tipper .tipper-content { background: transparent; font-weight: 700;letter-spacing:1px; border-radius: 3px; color: #ccc; display: block; float: left; font-family: 'Work Sans', sans-serif; font-size: 18px; line-height: 20px;margin: 0; padding: 10px 0; position: relative; white-space: nowrap; }
+.tipper .tipper-content { background: transparent; font-weight: 700;letter-spacing:1px; border-radius: 3px; color: #ccc; display: block; float: left; font-family: 'system-ui', sans-serif; font-size: 18px; line-height: 20px;margin: 0; padding: 10px 0; position: relative; white-space: nowrap; }
 .tipper .tipper-caret { display: block; height: 11px;  position: absolute; width: 100%; }
 .tipper .tipper-content span {
 	position:absolute;
@@ -2249,7 +2251,7 @@ figure.vimeo a img, figure.youtube a img {
 	margin-right:30px;
 	width:220px;
 	height:120px;
-	font-family: 'Work Sans', sans-serif;
+	font-family: 'system-ui', sans-serif;
 	letter-spacing:2px;
 	text-align:right;
 	font-size: 50px;
@@ -2274,7 +2276,7 @@ figure.vimeo a img, figure.youtube a img {
 	font-size: 50px;
 	line-height:160px;
     vertical-align: text-bottom;
-	font-family: 'Work Sans', sans-serif;
+	font-family: 'system-ui', sans-serif;
 	letter-spacing:2px;
 	text-align:left;
 	color:#999;

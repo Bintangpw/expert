@@ -58,10 +58,10 @@ Route::middleware('auth')->group(function () {
         return redirect('/dashboard');
     });
 
-    Route::resource('/gejala', GejalaController::class);
-    Route::resource('/depresi', TingkatDepresiController::class);
     Route::resource('/spk', DiagnosaController::class)->only('index');
 });
+Route::resource('/gejala', GejalaController::class);
+Route::resource('/depresi', TingkatDepresiController::class);
 
 
 Route::get('/form', function () {
