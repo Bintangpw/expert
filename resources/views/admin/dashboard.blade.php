@@ -67,7 +67,7 @@
                     </div>
 
                     <div class="card-body">
-                      <h5 class="card-title">Gangguan <span>| Depresi</span></h5>
+                      <h5 class="card-title">Gangguan <span>| Makan</span></h5>
 
                       <div class="d-flex align-items-center">
                         <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
@@ -177,14 +177,14 @@
                     </div>
 
                     <div class="card-body pb-0">
-                      <h5 class="card-title">Gangguan <span>| Depresi</span></h5>
+                      <h5 class="card-title">Gangguan <span>| Makan</span></h5>
 
                       <table class="table table-borderless">
                         <thead>
                           <tr>
                             <th scope="col">Id</th>
-                            <th scope="col">Kode depresi</th>
-                            <th scope="col">Tinkat depresi</th>
+                            <th scope="col">Kode gangguan makan</th>
+                            <th scope="col">Tingkat gangguan makan</th>
                           </tr>
                         </thead>
                         <tbody>

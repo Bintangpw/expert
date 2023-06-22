@@ -28,7 +28,7 @@
     <li class="nav-item">
       <a class="nav-link collapsed" href="{{ route('depresi.index') }}">
         <i class="bi bi-patch-question"></i>
-        <span>Depresi</span>
+        <span>Gangguan Makan</span>
       </a>
     </li><!-- End Depresi Page Nav -->
 
