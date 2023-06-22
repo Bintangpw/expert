@@ -15,13 +15,51 @@
 .team-wrap,
 .contact-det,
 .blog-box .more:after{
-	color: #7532F9;
+	color: #301d57;
+	/* color: #4C0BCE; */
 }
-.menu ul li:hover a.shadow-hover{
-	text-shadow: -7px 6px 0 rgba(219,76,23,.5);
+
+/* SHIFT */
+
+
+.menu ul li a.change-hover{
+  position:relative;
+  z-index: 1;
 }
+
+.menu ul li a.change-hover:hover{
+	color:  #4C0BCE;
+}
+
+.menu ul li a.change-hover:after{
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  width: 100%;
+  height: 1px;
+  content: '.';
+  color: transparent;
+  background: #7532F9;
+  visibility: none;
+  opacity: 0;
+  z-index: -1;
+}
+
+.menu ul li a.change-hover:hover:after{
+  opacity: 1;
+  visibility: visible;
+  height: 100%;
+}
+
+
+
+
 .menu ul li a.curent-shadow{
-	text-shadow: -7px 6px 0 rgba(219,76,23,.5);
+	text-shadow: -7px 6px 0 #7532F9;
 }
 .menu ul li ul li a.curent-multi-page,
 .menu ul li ul li a.curent-multi-page:hover{

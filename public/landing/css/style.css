@@ -1161,6 +1161,25 @@ Mobile style's
 .prev-hero-sync-1:hover i {
 	color: #000;
 }
+.button-to-next {
+	position: absolute;
+	color: #301d57;
+	background-color: #F6F9FF;
+	bottom: 0;
+	right: 0;
+	z-index: 95;
+	text-align: right;
+	font-size: 2vw;
+	width: 100%;
+	letter-spacing: 1px;
+}
+
+.button-to-next:hover,
+.button-to-next:active {
+  /* filter: invert(100%); */
+  color: #F6F9FF;
+  background-color: #301d57;
+}
 
 .scroll-to-next {
 	position: absolute;
@@ -1497,7 +1516,7 @@ figure.vimeo a img, figure.youtube a img {
 	font-weight: 800;
 	letter-spacing: 1px;
 	padding-left: 30px;
-	font-size: 7vw;
+	font-size: 3vw;
 	line-height: 1.1;
 	-webkit-text-stroke: 2px #000;
 	text-stroke: 2px #000;

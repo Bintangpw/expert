@@ -87,10 +87,10 @@
             </a> --}}
             <ul>
                 <li>
-                    <a class="text-uppercase shadow-hover" href="/dashboard">Dashboard</a>
+                    <a class="text-uppercase change-hover" href="/dashboard">Dashboard</a>
                 </li>
                 <li>
-                    <a class="text-uppercase shadow-hover curent-shadow" href="#">Menu</a>
+                    <a class="text-uppercase change-hover dropdown-toggle" href="#">Menu</a>
                     <ul>
                         <li><a href="/form">Diagnosa</a></li>
                         <li><a href="/gejala">Gejala</a></li>
@@ -98,18 +98,18 @@
                     </ul>
                 </li>
                 {{-- <li>
-                    <a class="text-uppercase shadow-hover" href="/artikel">Artikel</a>
+                    <a class="text-uppercase change-hover" href="/artikel">Artikel</a>
                 </li> --}}
                 <li>
-                    <a class="text-uppercase shadow-hover" href="#kontak">Kontak</a>
+                    <a class="text-uppercase change-hover" href="#kontak">Kontak</a>
                 </li>
                 <li>
-                    <a class="text-uppercase shadow-hover" href="#faq">FAQ</a>
+                    <a class="text-uppercase change-hover" href="#faq">FAQ</a>
                 </li>
 
                 @guest()
                 <li>
-                    <a class="text-uppercase shadow-hover" href="/login">Login</span></a>
+                    <a class="text-uppercase change-hover" href="/login">Login</span></a>
                 </li>
                 @endguest
             </ul>
@@ -130,14 +130,12 @@
                 <div class="container text-left ml-5">
                     <div class="row ml-5">
                         <div class="col-md-12">
-                            <br>
-                            <br>
                             <h1 class="parallax-fade-top-2 typed">
                                 {{-- Cek Tingkat <strong>gangguan makanmu</strong>
                                 Sekarang!<br> --}}
                                 <span id="typed-1">
-                                    Cek Tingkat <strong style="-webkit-text-stroke: 0">gangguan makan</strong>
-                                Sekarang!<br>
+                                    Cek tingkat <strong class="fw-bold" style="-webkit-text-stroke: 0; font-size:9vw;">gangguan makan</strong>
+                                sekarang!<br>
                                 </span>
                             </h1>
                             <br>
@@ -147,15 +145,14 @@
                                   transition: box-shadow 0.5s;
                                 }
                               </style>
-                              <div style="margin-left: 12px">
-
-                                <a href="/form" class="btn btn-light btn-glow" role="button" style="color: rgb(218, 116, 22);">
-                                  Isi form
-                                </a>
-                              </div>
                         </div>
                     </div>
                 </div>
+            </div>
+            <div style="margin-left: 12px">
+              <a href="/form" class="fw-bolder button-to-next btn btn-light btn-glow rounded-top" role="button">
+                ISI FORM
+              </a>
             </div>
             <a href="#footer" data-gal="m_PageScroll2id">
                 <div class="scroll-to-next">ke bawah <i class="fa fa-long-arrow-down"></i></div>
@@ -167,7 +164,7 @@
 
         <!-- Hero Section -->
 
-        <div class="section padding-top-big padding-bottom-big">
+        <div class="section padding-top-big padding-bottom-big" style="z-index: 99999">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 page-center-text-wrap text-center">
