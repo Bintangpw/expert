@@ -11,7 +11,7 @@
                 <li class="step-3"><span>Hasil<br />Anda</span></li>
             </ol>
             <div class="col-lg-10 mx-auto" style="width: 100%">
-            <table class="table-warning" style="width: 100%">
+            <table class="table text-white rounded-4" style="width: 100%; background-color:#4C0BCE">
                 <thead>
                   <tr>
                     <th scope="col">#</th>
@@ -22,7 +22,7 @@
                 </thead>
                 <tbody>
                   <tr>
-                    <th scope="row">1</th>
+                    <td scope="row">1</td>
                     <td>{{ $diagnosa->diagnosa_id }}</td>
                     <td> {{ $diagnosa_dipilih["kode_depresi"]->kode_depresi }} | {{ $diagnosa_dipilih["kode_depresi"]->depresi }}</td>
                     {{-- <td>{{ ($diagnosa_dipilih["value"] * 100) }} %</td> --}}
@@ -36,10 +36,10 @@
         {{-- section 2 --}}
         <div class="row">
             <div class="col-lg-12 mx-auto">
-                <div class="d-flex justify-content-center" style="width: 100%; gap: 50px">
+                <div class="d-flex justify-content-center text-white" style="width: 100%; gap: 50px">
                     {{-- Pakar --}}
                     <div class="table-container">
-                        <table class="table table-hover mt-lg-5 border border-primary p-3 mx-3" style="width: 100%">
+                        <table class="table-dark table-hover mt-lg-5 p-3 mx-3 rounded-4" style="width: 100%; background-color:#4C0BCE">
                             <thead>
                                 <tr>
                                     <th scope="col" colspan="3" class="text-center text-uppercase">Pakar</th>
@@ -66,7 +66,7 @@
 
                     {{-- User --}}
                     <div class="table-container">
-                        <table class="table table-hover mt-lg-5 border border-danger p-3 mx-3" style="width: 100%">
+                        <table class="table-dark table-hover mt-lg-5 p-3 mx-3 rounded-4" style="width: 100%; background-color:#4C0BCE">
                             <thead>
                                 <tr>
                                     <th scope="col" colspan="2" class="text-center text-uppercase">User</th>
@@ -90,7 +90,7 @@
                     {{-- Tabel Cf Gabungan --}}
                     {{-- CF Gabungan --}}
                     <div class="table-container">
-                        <table class="table table-hover mt-lg-5 border border-info p-3 mx-3" style="width: 100%">
+                        <table class="table-dark table-hover mt-lg-5 p-3 mx-3 rounded-4" style="width: 100%; background-color:#4C0BCE">
                             <thead>
                                 <tr>
                                     <th scope="col" class="text-center text-uppercase">Hasil</th>
@@ -132,7 +132,7 @@
         </div>
         {{-- @include('components.cl_article') --}}
             <div >
-                <a href="/" class="btn btn-primary flex w-100"> KEMBALI</a>
+                <a href="/" class="btn btn-primary flex w-100 radius-4" style="background-color:#4C0BCE"> KEMBALI</a>
             </div>
        </div>
     </div>
