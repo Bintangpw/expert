@@ -522,7 +522,7 @@ var gform;gform||(document.addEventListener("gform_main_scripts_loaded",function
                                     <a href="/gejala">Gejala</a></li>
                                 <li id="menu-item-3054"
                                     class="wide bold menu-item menu-item-type-post_type menu-item-object-page menu-item-3054">
-                                    <a href="/gangguan">gangguan</a></li>
+                                    <a href="/gangguan">Gangguan Makan</a></li>
 
                             </ul>
                         </li>

@@ -6,9 +6,9 @@
     <div class="container fs-6">
         <div class="row mx-auto my-4" style="width: 100%">
             <ol class="screen-progress-bar clearfix step-3-of-3">
-                <li class="step-1"><span>Informasi<br />Tes</span></li>
-                <li class="step-2"><span>Pertanyaan<br />Tes</span></li>
-                <li class="step-3"><span>Hasil<br />Anda</span></li>
+                <li class="step-1"><span>Overview</span></li>
+                <li class="step-2"><span>Pertanyaan</span></li>
+                <li class="step-3"><span>Hasil Diagnosa</span></li>
             </ol>
             <div class="col-lg-10 mx-auto" style="width: 100%">
             <table class="table text-white rounded-4" style="width: 100%; background-color:#4C0BCE">

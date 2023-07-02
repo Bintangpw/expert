@@ -648,7 +648,7 @@ var gform;gform||(document.addEventListener("gform_main_scripts_loaded",function
 										<a href="/gejala">Gejala</a></li>
 									<li id="menu-item-3054"
 										class="wide bold menu-item menu-item-type-post_type menu-item-object-page menu-item-3054">
-										<a href="/gangguan">gangguan</a></li>
+										<a href="/gangguan">Gangguan Makan</a></li>
 
 								</ul>
 							</li>
@@ -682,9 +682,9 @@ var gform;gform||(document.addEventListener("gform_main_scripts_loaded",function
 							<form method='post' enctype='multipart/form-data' id='gform_1' action="{{ route('spk.store') }}" novalidate>
 								@csrf
 								<ol class="screen-progress-bar clearfix step-2-of-3">
-									<li class="step-1"><span>Informasi<br />Tes</span></li>
-									<li class="step-2"><span>Pertanyaan<br />Tes</span></li>
-									<li class="step-3"><span>Hasil<br />Anda</span></li>
+									<li class="step-1"><span>Overview</span></li>
+									<li class="step-2"><span>Pertanyaan</span></li>
+									<li class="step-3"><span>Hasil Diagnosa</span></li>
 								</ol>
 								<div class='gform_body gform-body '>
 									<div id='gform_page_1_1' class='gform_page'>
@@ -795,7 +795,7 @@ var gform;gform||(document.addEventListener("gform_main_scripts_loaded",function
 												onkeypress='if( event.keyCode == 13 ){ jQuery("#gform_target_page_number_1").val("2");  jQuery("#gform_1").trigger("submit",[true]); } ' />
 										</div>
 									</div>
-									<div id='gform_page_1_2' class='gform_page demographics' style='display:none;'>
+									{{-- <div id='gform_page_1_2' class='gform_page demographics' style='display:none;'>
 										<div class='gform_page_fields'>
 											<ul id='gform_fields_1_2'
 												class='gform_fields top_label form_sublabel_below description_above'>
@@ -1891,7 +1891,7 @@ var gform;gform||(document.addEventListener("gform_main_scripts_loaded",function
 							</form>
 						</div>
 						<p>&nbsp;</p>
-						<hr />
+						<hr /> --}}
 
 
 					</div>

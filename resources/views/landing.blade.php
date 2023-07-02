@@ -1,15 +1,5 @@
 @extends('main')
-{{-- <!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en"> <![endif]-->
-<!--[if gt IE 8]>
-<!-->
-<html class="no-js" lang="en">
-<!--<![endif]-->
-
-<head> --}}
 @section('external_assets')
-    <!-- Basic Page Needs
- ================================================== -->
     <meta charset="utf-8">
     <title>Diagnosa Gangguan Makan</title>
     <meta name="description" content="Professional Creative Template" />
@@ -31,23 +21,17 @@
     <meta name="twitter:description" content="Professional Creative Template" />
     <meta name="twitter:image" content="http://ivang-design.com/" />
 
-    <!-- Mobile Specific Metas
- ================================================== -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta name="theme-color" content="#212121" />
     <meta name="msapplication-navbutton-color" content="#212121" />
     <meta name="apple-mobile-web-app-status-bar-style" content="#212121" />
 
-    <!-- Web Fonts
- ================================================== -->
     <link href="https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700,800,900"
         rel="stylesheet" />
     <link
         href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
         rel="stylesheet" />
 
-    <!-- CSS
- ================================================== -->
     <link rel="stylesheet" href="landing/css/bootstrap.min.css" />
     <link rel="stylesheet" href="landing/css/font-awesome.min.css" />
     <link rel="stylesheet" href="landing/css/style.css" />
@@ -56,35 +40,18 @@
     <link rel="stylesheet" href="landing/css/owl.carousel.css" />
     <link rel="stylesheet" href="landing/css/owl.transitions.css" />
 
-    <!-- Favicons
- ================================================== -->
     <link rel="icon" type="image/png" href="favicon.png">
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-72x72.png">
     <link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-114x114.png">
 
 @endsection
-{{-- </head> --}}
 
 @section('main_section')
 
 <body class="royal_preloader">
-
-    <!-- <div id="royal_preloader"></div> -->
-
-
-    <!-- Nav and Logo
- ================================================== -->
-
-
-    <!-- MENU
-    ================================================== -->
-
     <nav id="menu-wrap" class="menu-back cbp-af-header">
         <div class="menu">
-            {{-- <a href="/">
-                <div class="logo"></div>
-            </a> --}}
             <ul>
                 <li>
                     <a class="text-uppercase change-hover" href="/dashboard">Dashboard</a>
@@ -97,14 +64,8 @@
                         <li><a href="/gangguan">Gangguan Makan</a></li>
                     </ul>
                 </li>
-                {{-- <li>
-                    <a class="text-uppercase change-hover" href="/artikel">Artikel</a>
-                </li> --}}
                 <li>
                     <a class="text-uppercase change-hover" href="#kontak">Kontak</a>
-                </li>
-                <li>
-                    <a class="text-uppercase change-hover" href="#faq">FAQ</a>
                 </li>
 
                 @guest()
@@ -116,13 +77,8 @@
         </div>
     </nav>
 
-    <!-- Primary Page Layout
- ================================================== -->
 
     <main>
-
-        <!-- Hero Section -->
-
         <div class="section full-height mob-height">
             <div class="background-parallax" style="background-image: url('landing/img/full-2-new.jpg')"
                 data-enllax-ratio=".5" data-enllax-type="background" data-enllax-direction="vertical"></div>
@@ -131,8 +87,6 @@
                     <div class="row ml-5">
                         <div class="col-md-12">
                             <h1 class="parallax-fade-top-2 typed">
-                                {{-- Cek Tingkat <strong>gangguan makanmu</strong>
-                                Sekarang!<br> --}}
                                 <span id="typed-1">
                                     Cek tingkat <strong class="fw-bold" style="-webkit-text-stroke: 0; font-size:9vw;">gangguan makan</strong>
                                 sekarang!<br>
@@ -154,15 +108,8 @@
                 ISI FORM
               </a>
             </div>
-            <a href="#footer" data-gal="m_PageScroll2id">
-                <div class="scroll-to-next">ke bawah <i class="fa fa-long-arrow-down"></i></div>
-            </a>
         </div>
 
-        <!-- Portfolio -->
-
-
-        <!-- Hero Section -->
 
         <div class="section padding-top-big padding-bottom-big" style="z-index: 99999">
             <div class="container">
@@ -299,185 +246,17 @@
             </div>
         </div>
 
-        <!-- FAQ Section -->
-        <section id="faq" class="bg-light py-5">
-            <div class="container">
-                <h2 class="text-center mb-5">Pertanyaan yang Sering Diajukan - FAQ</h2>
-                <div class="accordion" id="faqAccordion">
-                    <div class="card">
-                        <div class="card-header" id="headingOne">
-                            <h2 class="mb-0">
-                                <button class="btn btn-link" type="button" data-toggle="collapse"
-                                    data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    Apa itu HealthyNourish?
-                                </button>
-                            </h2>
-                        </div>
-
-                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
-                            data-parent="#faqAccordion">
-                            <div class="card-body">
-                                HealthyNourish adalah sebuah situs yang membantu mahasiswa akhir mengukur tingkat gangguan makan
-                                mereka dengan mengisi formulir pertanyaan. Kami menyediakan solusi sesuai setelah
-                                mahasiswa mengisi formulir tersebut.
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-header" id="headingTwo">
-                            <h2 class="mb-0">
-                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                    data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    Siapa yang bisa mengakses HealthyNourish?
-                                </button>
-                            </h2>
-                        </div>
-                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
-                            data-parent="#faqAccordion">
-                            <div class="card-body">
-                                HealthyNourish ditujukan untuk mahasiswa akhir, namun siapa saja dapat mengakses situs ini
-                                dan mengisi formulir untuk mengetahui tingkat gangguan makan mereka.
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-header" id="headingThree">
-                            <h2 class="mb-0">
-                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                    data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                    Apakah hasil dari HealthyNourish dapat diandalkan?
-                                </button>
-                            </h2>
-                        </div>
-                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
-                            data-parent="#faqAccordion">
-                            <div class="card-body">
-                                Hasil dari HealthyNourish adalah sebuah estimasi dari tingkat gangguan makan seseorang, dan tidak
-                                bisa dianggap sebagai diagnosis yang pasti. Kami sangat menyarankan agar seseorang yang
-                                merasa memiliki tingkat gangguan makan yang tinggi untuk segera meminta bantuan profesional.
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-header" id="headingFour">
-                            <h2 class="mb-0">
-                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                    data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                    Bagaimana cara mengakses solusi yang ditawarkan HealthyNourish?
-                                </button>
-                            </h2>
-                        </div>
-                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
-                            data-parent="#faqAccordion">
-                            <div class="card-body">
-                                Setelah mengisi formulir, mahasiswa akan menerima rekomendasi solusi sesuai dengan
-                                tingkat gangguan makan yang terdeteksi. Kami juga menyediakan tautan ke sumber informasi dan
-                                bantuan profesional yang dapat membantu mahasiswa mengatasi gangguan makan mereka.
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            </div>
-        </section>
-
-
-
-
-
-
         <div id="footer" class="section footer padding-top-big background-dark background-image-cover m-0 rounded-top"
             style="background-image: url(img/footer.jpg);">
             <div class="container">
-                {{-- <div class="row">
-                    <div class="col-md-12">
-                        <img src="landing/img/logo-light.png" alt="logo image" />
-                    </div>
-                    <div class="col-md-12 my-4">
-                        <ul class="footer-social">
-                            <li>
-                                <a href="#">Tw</a>
-                            </li>
-                            <li>
-                                <a href="#">Fb</a>
-                            </li>
-                            <li>
-                                <a href="#">G+</a>
-                            </li>
-                            <li>
-                                <a href="#">Vm</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-md-12 mt-5">
-                        <div class="footer-line"></div>
-                    </div>
-                    <div class="col-md-12 rights my-3">
-                    </div>
-                </div> --}}
             </div>
         </div>
-
-        {{-- <div class="section footer padding-top-big background-image-cover"
-            style="background-image: url(landing/img/footer.jpg);">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <img src="landing/img/logo-light.png" alt="logo image" />
-                    </div>
-                    <div class="col-md-12 my-4">
-                        <ul class="footer-social">
-                            <li>
-                                <a href="#">Tw</a>
-                            </li>
-                            <li>
-                                <a href="#">Fb</a>
-                            </li>
-                            <li>
-                                <a href="#">G+</a>
-                            </li>
-                            <li>
-                                <a href="#">Vm</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-md-12 mt-5">
-                        <div class="footer-line"></div>
-                    </div>
-                    <div class="col-md-12 rights my-3">
-                    </div>
-                </div>
-            </div>
-        </div> --}}
-
     </main>
 
-
-    <!-- JAVASCRIPT
-    ================================================== -->
     <script src="landing/js/jquery.js"></script>
     <script src="landing/js/royal_preloader.min.js"></script>
     <script src="landing/js/popper.min.js"></script>
     <script src="landing/js/bootstrap.min.js"></script>
     <script src="landing/js/plugins.js"></script>
     <script src="landing/js/custom.js"></script>
-    <script>
-        // Type text
-
-        // var typed = new Typed('#typed-1', {
-        //     strings: ['diagnosa', 'solusi', 'atasi'],
-        //     typeSpeed: 45,
-        //     backSpeed: 0,
-        //     startDelay: 200,
-        //     backDelay: 2200,
-        //     loop: true,
-        //     loopCount: false,
-        //     showCursor: true,
-        //     cursorChar: "_",
-        //     attr: null
-        // });
-    </script>
-    <!-- End Document
-================================================== -->
-
 @endsection
