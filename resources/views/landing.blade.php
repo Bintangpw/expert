@@ -94,7 +94,7 @@
                     <ul>
                         <li><a href="/form">Diagnosa</a></li>
                         <li><a href="/gejala">Gejala</a></li>
-                        <li><a href="/depresi">Gangguan Makan</a></li>
+                        <li><a href="/gangguan">Gangguan Makan</a></li>
                     </ul>
                 </li>
                 {{-- <li>

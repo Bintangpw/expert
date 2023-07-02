@@ -26,18 +26,18 @@
     </li><!-- End Gejala Page Nav -->
 
     <li class="nav-item">
-      <a class="nav-link collapsed" href="{{ route('depresi.index') }}">
+      <a class="nav-link collapsed" href="{{ route('gangguan.index') }}">
         <i class="bi bi-patch-question"></i>
         <span>Gangguan Makan</span>
       </a>
-    </li><!-- End Depresi Page Nav -->
+    </li><!-- End gangguan Page Nav -->
 
     <li class="nav-item">
       <a class="nav-link collapsed" href="{{ route('spk.index') }}">
         <i class="bi bi-clipboard2-data"></i>
         <span>Hasil Diagnosa</span>
       </a>
-    </li><!-- End Depresi Page Nav -->
+    </li><!-- End gangguan Page Nav -->
 
     <li class="nav-heading">Pengaturan</li>
 

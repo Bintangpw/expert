@@ -1,4 +1,4 @@
-<!-- Modal Edit depresi -->
+<!-- Modal Edit gangguan -->
 <div class="modal fade modal-fullscreen-md-down" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
@@ -8,18 +8,18 @@
         </div>
         <div class="modal-body">
           {{-- form --}}
-          <form id="edit-depresi" action="" method="post">
+          <form id="edit-gangguan" action="" method="post">
             @method("put")
             @csrf
             <div class="input-form d-flex">
-                <input type="hidden" name="id" id="id_depresi">
+                <input type="hidden" name="id" id="id_gangguan">
                 <div class="form-floating mb-3 p-2 mx-2">
-                    <input type="text" class="form-control" id="kode-depresi" name="kode_depresi" readonly>
-                    <label for="kode-depresi">Kode Gangguan Makan</label>
+                    <input type="text" class="form-control" id="kode-gangguan" name="kode_gangguan" readonly>
+                    <label for="kode-gangguan">Kode Gangguan Makan</label>
                 </div>
                 <div class="form-floating mb-3 p-2 mx-2">
-                    <input type="text" class="form-control" id="depresi" name="depresi">
-                    <label for="depresi">Gangguan Makan</label>
+                    <input type="text" class="form-control" id="gangguan" name="gangguan">
+                    <label for="gangguan">Gangguan Makan</label>
                 </div>
             </div>
             <button type="submit" class="btn btn-primary">ubah</button>
@@ -31,10 +31,10 @@
       </div>
     </div>
 </div>
-{{-- end modal edit depresi --}}
+{{-- end modal edit gangguan --}}
 
-{{-- modal tambah depresi --}}
-<div class="modal fade modal-fullscreen-md-down" id="depresiModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+{{-- modal tambah gangguan --}}
+<div class="modal fade modal-fullscreen-md-down" id="gangguanModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
@@ -43,17 +43,17 @@
         </div>
         <div class="modal-body">
           {{-- form edit --}}
-          <form id="tambah-depresi" action="{{ route('depresi.store') }}" method="post">
+          <form id="tambah-gangguan" action="{{ route('gangguan.store') }}" method="post">
             @csrf
             <div class="input-form d-flex">
-                <input type="hidden" name="id" id="id_depresi">
+                <input type="hidden" name="id" id="id_gangguan">
                 <div class="form-floating mb-3 p-2 mx-2">
-                    <input type="text" class="form-control" id="kode-depresi" name="kode_depresi" placeholder="kode depresi" required>
-                    <label for="kode-depresi">Kode Gangguan Makan</label>
+                    <input type="text" class="form-control" id="kode-gangguan" name="kode_gangguan" placeholder="kode gangguan" required>
+                    <label for="kode-gangguan">Kode Gangguan Makan</label>
                 </div>
                 <div class="form-floating mb-3 p-2 mx-2">
-                    <input type="text" class="form-control" id="depresi" name="depresi" placeholder="depresi" required>
-                    <label for="depresi">Gangguan Makan</label>
+                    <input type="text" class="form-control" id="gangguan" name="gangguan" placeholder="gangguan" required>
+                    <label for="gangguan">Gangguan Makan</label>
                 </div>
             </div>
             <button type="submit" class="btn btn-primary">simpan</button>
@@ -65,20 +65,20 @@
       </div>
     </div>
 </div>
-{{-- end modal tambah depresi --}}
+{{-- end modal tambah gangguan --}}
 
 <script>
-    function updateInput(iddepresi, kode, depresi){
-        document.getElementById("kode-depresi").value = kode;
-        document.getElementById("depresi").value = depresi;
-        document.getElementById("id_depresi").value = iddepresi;
+    function updateInput(idgangguan, kode, gangguan){
+        document.getElementById("kode-gangguan").value = kode;
+        document.getElementById("gangguan").value = gangguan;
+        document.getElementById("id_gangguan").value = idgangguan;
     }
 
-    function actionUbahdepresi(params) {
-        const formdepresi = document.getElementById('edit-depresi');
-        formdepresi.setAttribute('action', params);
-        formdepresi.setAttribute('method', 'POST');
-        console.log(formdepresi);
+    function actionUbahgangguan(params) {
+        const formgangguan = document.getElementById('edit-gangguan');
+        formgangguan.setAttribute('action', params);
+        formgangguan.setAttribute('method', 'POST');
+        console.log(formgangguan);
     }
 
 </script>

@@ -30,7 +30,7 @@ SET time_zone = "+00:00";
 CREATE TABLE `artikels` (
   `id` bigint(20) UNSIGNED NOT NULL,
   `url_gambar` char(255) NOT NULL,
-  `kode_depresi` char(255) NOT NULL,
+  `kode_gangguan` char(255) NOT NULL,
   `judul` varchar(255) NOT NULL,
   `isi` text NOT NULL,
   `created_at` timestamp NULL DEFAULT NULL,
@@ -41,11 +41,11 @@ CREATE TABLE `artikels` (
 -- Dumping data for table `artikels`
 --
 
-INSERT INTO `artikels` (`id`, `url_gambar`, `kode_depresi`, `judul`, `isi`, `created_at`, `updated_at`) VALUES
-(1, 'https://plus.unsplash.com/premium_photo-1668062843172-0129f25a1276?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80', 'P001', 'Gangguan Mood', 'Ganggguan mood yang terjadi pada seseorang ini umumnya terjadi karena banyaknya tekanan yang menimpa dirinya dan cenderung terlarut dalam tekanan dapat meningkatkan resiko berkembangnya gangguan mood yang kemudian dapat berubah menjadi depresi terutama depresi mayor. Hal ini terbukti pada suatu penelitian yang menemukan bahwa dalam sekitar empat dari lima kasus, depresi mayor diawali oleh peristiwa kehidupan yang penuh tekanan.', NULL, NULL),
-(2, 'https://d1vbn70lmn1nqe.cloudfront.net/prod/wp-content/uploads/2022/10/04084507/Ini-Ciri-Ciri-Depresi-Ringan-yang-Masih-Sering-Diabaikan.jpg', 'P002', 'Depresi Minor / Depresi Ringan', 'Depresi ringan ini di identikkan dengan depresi minor yang merupakan perasaan melankolis yang berlangsung sebentar dan disebabkan oleh sebuah kejadian yang tragis atau mengandung ancaman, atau kehilangan sesuatu yang penting dalam kehidupan si penderita (Meier, 2000: 20-21). Orang dengan depresi ringan ini setidaknya memiliki 2 dari gejala lainnya dan 2-3 dari gejala utama. (Maslim, 2003, 64).', NULL, NULL),
-(3, 'https://soc-phoenix.s3-ap-southeast-1.amazonaws.com/wp-content/uploads/2017/09/22173906/mental-illness-and-disorders.jpg', 'P003', 'Depresi Sedang', 'Depresi sedang ini di alami oleh penderita selama kurang 2 minggu, dan orang dengan depresi sedang ini mengalami kesulitan nyata untuk meneruskan kegiatan social, pekerjaan dan urusan rumah tangga. Orang dengan depresi sedang ini setidaknya memiliki 2-3 dari gejala utama dan 3-4 dari gejala lainnya (Maslim,  2003: 64).', NULL, NULL),
-(4, 'https://soc-phoenix.s3-ap-southeast-1.amazonaws.com/wp-content/uploads/2017/09/22173906/mental-illness-and-disorders.jpg', 'P004', 'Depresi mayor / Depresi Berat', 'Depresi mayor merupakan salah satu gangguan yang prevalensinya paling tinggi di antara berbagai gangguan (Davidson, 2006: 374). Depresi mayor adalah kemurungan yang dalam dan menyebar luas. Perasaan murung ini mampu menyedot semangat dan energy serta menyelubungi kehidupan si penderita seperti asap yang tebak dan menyesakkan dada. Depresi mayor ini dapat berlangsung cukup lama mulai dari empat belas hari sampai beberapa tahun. Hal ini menyebabkan penderita akan sangat sulit utnuk berfungsi dengan baik di lingkungannya. Orang dengan depresi mayor ini juga terkadang disertai dengan keinginan untuk bunuh diri atau bahkan keinginan untuk mati. Orang yang sangat tertekan, mereka akan mengalami dampak hal-hal yang mengganggu kejiwaan mereka seperti gila, paranoia atau halusinasi pendengaran (Meier, 2000: 25-26).', NULL, NULL);
+INSERT INTO `artikels` (`id`, `url_gambar`, `kode_gangguan`, `judul`, `isi`, `created_at`, `updated_at`) VALUES
+(1, 'https://plus.unsplash.com/premium_photo-1668062843172-0129f25a1276?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80', 'P001', 'Gangguan Mood', 'Ganggguan mood yang terjadi pada seseorang ini umumnya terjadi karena banyaknya tekanan yang menimpa dirinya dan cenderung terlarut dalam tekanan dapat meningkatkan resiko berkembangnya gangguan mood yang kemudian dapat berubah menjadi gangguan terutama gangguan mayor. Hal ini terbukti pada suatu penelitian yang menemukan bahwa dalam sekitar empat dari lima kasus, gangguan mayor diawali oleh peristiwa kehidupan yang penuh tekanan.', NULL, NULL),
+(2, 'https://d1vbn70lmn1nqe.cloudfront.net/prod/wp-content/uploads/2022/10/04084507/Ini-Ciri-Ciri-gangguan-Ringan-yang-Masih-Sering-Diabaikan.jpg', 'P002', 'gangguan Minor / gangguan Ringan', 'gangguan ringan ini di identikkan dengan gangguan minor yang merupakan perasaan melankolis yang berlangsung sebentar dan disebabkan oleh sebuah kejadian yang tragis atau mengandung ancaman, atau kehilangan sesuatu yang penting dalam kehidupan si penderita (Meier, 2000: 20-21). Orang dengan gangguan ringan ini setidaknya memiliki 2 dari gejala lainnya dan 2-3 dari gejala utama. (Maslim, 2003, 64).', NULL, NULL),
+(3, 'https://soc-phoenix.s3-ap-southeast-1.amazonaws.com/wp-content/uploads/2017/09/22173906/mental-illness-and-disorders.jpg', 'P003', 'gangguan Sedang', 'gangguan sedang ini di alami oleh penderita selama kurang 2 minggu, dan orang dengan gangguan sedang ini mengalami kesulitan nyata untuk meneruskan kegiatan social, pekerjaan dan urusan rumah tangga. Orang dengan gangguan sedang ini setidaknya memiliki 2-3 dari gejala utama dan 3-4 dari gejala lainnya (Maslim,  2003: 64).', NULL, NULL),
+(4, 'https://soc-phoenix.s3-ap-southeast-1.amazonaws.com/wp-content/uploads/2017/09/22173906/mental-illness-and-disorders.jpg', 'P004', 'gangguan mayor / gangguan Berat', 'gangguan mayor merupakan salah satu gangguan yang prevalensinya paling tinggi di antara berbagai gangguan (Davidson, 2006: 374). gangguan mayor adalah kemurungan yang dalam dan menyebar luas. Perasaan murung ini mampu menyedot semangat dan energy serta menyelubungi kehidupan si penderita seperti asap yang tebak dan menyesakkan dada. gangguan mayor ini dapat berlangsung cukup lama mulai dari empat belas hari sampai beberapa tahun. Hal ini menyebabkan penderita akan sangat sulit utnuk berfungsi dengan baik di lingkungannya. Orang dengan gangguan mayor ini juga terkadang disertai dengan keinginan untuk bunuh diri atau bahkan keinginan untuk mati. Orang yang sangat tertekan, mereka akan mengalami dampak hal-hal yang mengganggu kejiwaan mereka seperti gila, paranoia atau halusinasi pendengaran (Meier, 2000: 25-26).', NULL, NULL);
 
 -- --------------------------------------------------------
 
@@ -67,20 +67,20 @@ CREATE TABLE `diagnosas` (
 --
 
 INSERT INTO `diagnosas` (`id`, `diagnosa_id`, `data_diagnosa`, `kondisi`, `created_at`, `updated_at`) VALUES
-(1, '64900c1b97740', '[{\"value\":\"1\",\"kode_depresi\":\"P001\"},{\"value\":\"0.64\",\"kode_depresi\":\"P002\"},{\"value\":\"0.6\",\"kode_depresi\":\"P003\"},{\"value\":\"0.8\",\"kode_depresi\":\"P004\"}]', '[[\"G001\",\"0.6\"],[\"G002\",\"0.8\"],[\"G003\",\"0.4\"],[\"G004\",\"0.6\"],[\"G005\",\"0.6\"],[\"G007\",\"1\"]]', '2023-06-19 08:04:43', '2023-06-19 08:04:43'),
-(2, '64900c3b2b587', '[{\"value\":\"1\",\"kode_depresi\":\"P001\"},{\"value\":\"1\",\"kode_depresi\":\"P002\"},{\"value\":\"0.6\",\"kode_depresi\":\"P003\"},{\"value\":\"0.8\",\"kode_depresi\":\"P004\"}]', '[[\"G001\",\"0.6\"],[\"G002\",\"0.8\"],[\"G003\",\"0.4\"],[\"G004\",\"0.6\"],[\"G005\",\"0.6\"],[\"G006\",\"0.8\"],[\"G007\",\"1\"]]', '2023-06-19 08:05:15', '2023-06-19 08:05:15'),
-(3, '64900c4c540ea', '[{\"value\":\"1\",\"kode_depresi\":\"P001\"},{\"value\":\"1\",\"kode_depresi\":\"P002\"},{\"value\":\"0.6\",\"kode_depresi\":\"P003\"},{\"value\":\"0.8\",\"kode_depresi\":\"P004\"}]', '[[\"G001\",\"0.6\"],[\"G002\",\"0.8\"],[\"G003\",\"0.4\"],[\"G004\",\"0.6\"],[\"G005\",\"0.6\"],[\"G006\",\"0\"],[\"G007\",\"1\"]]', '2023-06-19 08:05:32', '2023-06-19 08:05:32'),
-(4, '64900c578ba23', '[{\"value\":\"1\",\"kode_depresi\":\"P001\"},{\"value\":\"1\",\"kode_depresi\":\"P002\"},{\"value\":\"0.84\",\"kode_depresi\":\"P003\"},{\"value\":\"1\",\"kode_depresi\":\"P004\"}]', '[[\"G001\",\"0.6\"],[\"G002\",\"0.8\"],[\"G003\",\"0.4\"],[\"G004\",\"0.6\"],[\"G005\",\"0.6\"],[\"G006\",\"0\"],[\"G007\",\"1\"],[\"G008\",\"0.6\"],[\"G009\",\"0.8\"]]', '2023-06-19 08:05:43', '2023-06-19 08:05:43'),
-(5, '64900c6bd8fcb', '[{\"value\":\"1\",\"kode_depresi\":\"P001\"},{\"value\":\"1\",\"kode_depresi\":\"P002\"},{\"value\":\"0.84\",\"kode_depresi\":\"P003\"},{\"value\":\"1\",\"kode_depresi\":\"P004\"}]', '[[\"G001\",\"0\"],[\"G002\",\"0\"],[\"G003\",\"0\"],[\"G004\",\"0\"],[\"G005\",\"0\"],[\"G006\",\"0\"],[\"G007\",\"0\"],[\"G008\",\"0.6\"],[\"G009\",\"0.8\"]]', '2023-06-19 08:06:03', '2023-06-19 08:06:03'),
-(6, '64900c7ac48cc', '[{\"value\":\"1\",\"kode_depresi\":\"P001\"},{\"value\":\"1\",\"kode_depresi\":\"P002\"},{\"value\":\"0.9616\",\"kode_depresi\":\"P003\"},{\"value\":\"1\",\"kode_depresi\":\"P004\"}]', '[[\"G001\",\"0\"],[\"G002\",\"0\"],[\"G003\",\"0\"],[\"G004\",\"0\"],[\"G005\",\"0\"],[\"G006\",\"0.6\"],[\"G007\",\"0\"],[\"G008\",\"0.6\"],[\"G009\",\"0.8\"],[\"G010\",\"0.4\"],[\"G011\",\"1\"]]', '2023-06-19 08:06:18', '2023-06-19 08:06:18'),
-(7, '64900c873e1e4', '[{\"value\":\"1\",\"kode_depresi\":\"P001\"},{\"value\":\"1\",\"kode_depresi\":\"P002\"},{\"value\":\"0.98464\",\"kode_depresi\":\"P003\"},{\"value\":\"1\",\"kode_depresi\":\"P004\"}]', '[[\"G001\",\"0\"],[\"G002\",\"0\"],[\"G003\",\"0\"],[\"G004\",\"0\"],[\"G005\",\"0\"],[\"G006\",\"0.6\"],[\"G007\",\"0\"],[\"G008\",\"0.6\"],[\"G009\",\"0.8\"],[\"G010\",\"0.4\"],[\"G011\",\"1\"],[\"G012\",\"0.6\"]]', '2023-06-19 08:06:31', '2023-06-19 08:06:31'),
-(8, '64900c954bb7e', '[{\"value\":\"1\",\"kode_depresi\":\"P002\"},{\"value\":\"0.84\",\"kode_depresi\":\"P003\"},{\"value\":\"1\",\"kode_depresi\":\"P004\"}]', '[[\"G006\",\"0.6\"],[\"G008\",\"0.8\"],[\"G009\",\"0.4\"],[\"G010\",\"0.8\"]]', '2023-06-19 08:06:45', '2023-06-19 08:06:45'),
+(1, '64900c1b97740', '[{\"value\":\"1\",\"kode_gangguan\":\"P001\"},{\"value\":\"0.64\",\"kode_gangguan\":\"P002\"},{\"value\":\"0.6\",\"kode_gangguan\":\"P003\"},{\"value\":\"0.8\",\"kode_gangguan\":\"P004\"}]', '[[\"G001\",\"0.6\"],[\"G002\",\"0.8\"],[\"G003\",\"0.4\"],[\"G004\",\"0.6\"],[\"G005\",\"0.6\"],[\"G007\",\"1\"]]', '2023-06-19 08:04:43', '2023-06-19 08:04:43'),
+(2, '64900c3b2b587', '[{\"value\":\"1\",\"kode_gangguan\":\"P001\"},{\"value\":\"1\",\"kode_gangguan\":\"P002\"},{\"value\":\"0.6\",\"kode_gangguan\":\"P003\"},{\"value\":\"0.8\",\"kode_gangguan\":\"P004\"}]', '[[\"G001\",\"0.6\"],[\"G002\",\"0.8\"],[\"G003\",\"0.4\"],[\"G004\",\"0.6\"],[\"G005\",\"0.6\"],[\"G006\",\"0.8\"],[\"G007\",\"1\"]]', '2023-06-19 08:05:15', '2023-06-19 08:05:15'),
+(3, '64900c4c540ea', '[{\"value\":\"1\",\"kode_gangguan\":\"P001\"},{\"value\":\"1\",\"kode_gangguan\":\"P002\"},{\"value\":\"0.6\",\"kode_gangguan\":\"P003\"},{\"value\":\"0.8\",\"kode_gangguan\":\"P004\"}]', '[[\"G001\",\"0.6\"],[\"G002\",\"0.8\"],[\"G003\",\"0.4\"],[\"G004\",\"0.6\"],[\"G005\",\"0.6\"],[\"G006\",\"0\"],[\"G007\",\"1\"]]', '2023-06-19 08:05:32', '2023-06-19 08:05:32'),
+(4, '64900c578ba23', '[{\"value\":\"1\",\"kode_gangguan\":\"P001\"},{\"value\":\"1\",\"kode_gangguan\":\"P002\"},{\"value\":\"0.84\",\"kode_gangguan\":\"P003\"},{\"value\":\"1\",\"kode_gangguan\":\"P004\"}]', '[[\"G001\",\"0.6\"],[\"G002\",\"0.8\"],[\"G003\",\"0.4\"],[\"G004\",\"0.6\"],[\"G005\",\"0.6\"],[\"G006\",\"0\"],[\"G007\",\"1\"],[\"G008\",\"0.6\"],[\"G009\",\"0.8\"]]', '2023-06-19 08:05:43', '2023-06-19 08:05:43'),
+(5, '64900c6bd8fcb', '[{\"value\":\"1\",\"kode_gangguan\":\"P001\"},{\"value\":\"1\",\"kode_gangguan\":\"P002\"},{\"value\":\"0.84\",\"kode_gangguan\":\"P003\"},{\"value\":\"1\",\"kode_gangguan\":\"P004\"}]', '[[\"G001\",\"0\"],[\"G002\",\"0\"],[\"G003\",\"0\"],[\"G004\",\"0\"],[\"G005\",\"0\"],[\"G006\",\"0\"],[\"G007\",\"0\"],[\"G008\",\"0.6\"],[\"G009\",\"0.8\"]]', '2023-06-19 08:06:03', '2023-06-19 08:06:03'),
+(6, '64900c7ac48cc', '[{\"value\":\"1\",\"kode_gangguan\":\"P001\"},{\"value\":\"1\",\"kode_gangguan\":\"P002\"},{\"value\":\"0.9616\",\"kode_gangguan\":\"P003\"},{\"value\":\"1\",\"kode_gangguan\":\"P004\"}]', '[[\"G001\",\"0\"],[\"G002\",\"0\"],[\"G003\",\"0\"],[\"G004\",\"0\"],[\"G005\",\"0\"],[\"G006\",\"0.6\"],[\"G007\",\"0\"],[\"G008\",\"0.6\"],[\"G009\",\"0.8\"],[\"G010\",\"0.4\"],[\"G011\",\"1\"]]', '2023-06-19 08:06:18', '2023-06-19 08:06:18'),
+(7, '64900c873e1e4', '[{\"value\":\"1\",\"kode_gangguan\":\"P001\"},{\"value\":\"1\",\"kode_gangguan\":\"P002\"},{\"value\":\"0.98464\",\"kode_gangguan\":\"P003\"},{\"value\":\"1\",\"kode_gangguan\":\"P004\"}]', '[[\"G001\",\"0\"],[\"G002\",\"0\"],[\"G003\",\"0\"],[\"G004\",\"0\"],[\"G005\",\"0\"],[\"G006\",\"0.6\"],[\"G007\",\"0\"],[\"G008\",\"0.6\"],[\"G009\",\"0.8\"],[\"G010\",\"0.4\"],[\"G011\",\"1\"],[\"G012\",\"0.6\"]]', '2023-06-19 08:06:31', '2023-06-19 08:06:31'),
+(8, '64900c954bb7e', '[{\"value\":\"1\",\"kode_gangguan\":\"P002\"},{\"value\":\"0.84\",\"kode_gangguan\":\"P003\"},{\"value\":\"1\",\"kode_gangguan\":\"P004\"}]', '[[\"G006\",\"0.6\"],[\"G008\",\"0.8\"],[\"G009\",\"0.4\"],[\"G010\",\"0.8\"]]', '2023-06-19 08:06:45', '2023-06-19 08:06:45'),
 (9, '64901d6c287be', '[]', '[]', '2023-06-19 09:18:36', '2023-06-19 09:18:36'),
-(10, '64901d832e366', '[{\"value\":\"0.6\",\"kode_depresi\":\"P004\"}]', '[[\"G025\",\"0\"]]', '2023-06-19 09:18:59', '2023-06-19 09:18:59'),
-(11, '649020e558613', '[{\"value\":\"1\",\"kode_depresi\":\"P001\"},{\"value\":\"0.64\",\"kode_depresi\":\"P002\"},{\"value\":\"0.6\",\"kode_depresi\":\"P003\"},{\"value\":\"0.8\",\"kode_depresi\":\"P004\"}]', '[[\"G001\",\"1\"],[\"G002\",\"1\"],[\"G003\",\"1\"],[\"G004\",\"1\"],[\"G005\",\"1\"]]', '2023-06-19 09:33:25', '2023-06-19 09:33:25'),
-(12, '6490210499cf3', '[{\"value\":\"0.2\",\"kode_depresi\":\"P001\"},{\"value\":\"1\",\"kode_depresi\":\"P002\"},{\"value\":\"0.84\",\"kode_depresi\":\"P003\"},{\"value\":\"1\",\"kode_depresi\":\"P004\"}]', '[[\"G006\",\"1\"],[\"G007\",\"1\"],[\"G008\",\"1\"],[\"G009\",\"1\"],[\"G010\",\"1\"]]', '2023-06-19 09:33:56', '2023-06-19 09:33:56'),
-(13, '64902143246c0', '[{\"value\":\"1\",\"kode_depresi\":\"P001\"},{\"value\":\"1\",\"kode_depresi\":\"P002\"},{\"value\":\"1\",\"kode_depresi\":\"P003\"},{\"value\":\"1\",\"kode_depresi\":\"P004\"}]', '[[\"G001\",\"0\"],[\"G002\",\"0.2\"],[\"G003\",\"0.2\"],[\"G004\",\"0.6\"],[\"G005\",\"0.6\"],[\"G006\",\"0.2\"],[\"G007\",\"0.2\"],[\"G008\",\"0.4\"],[\"G009\",\"0.4\"],[\"G010\",\"0.2\"],[\"G011\",\"0.4\"],[\"G012\",\"0.6\"],[\"G013\",\"0.8\"],[\"G014\",\"1\"],[\"G015\",\"0.6\"],[\"G016\",\"0.6\"],[\"G017\",\"0.4\"],[\"G018\",\"0.8\"],[\"G019\",\"1\"],[\"G020\",\"1\"],[\"G021\",\"0.8\"],[\"G022\",\"0.6\"],[\"G023\",\"0.8\"],[\"G024\",\"1\"],[\"G025\",\"1\"],[\"G026\",\"1\"],[\"G027\",\"0.8\"],[\"G028\",\"1\"]]', '2023-06-19 09:34:59', '2023-06-19 09:34:59'),
-(14, '64902177cafbd', '[{\"value\":\"1\",\"kode_depresi\":\"P001\"},{\"value\":\"1\",\"kode_depresi\":\"P002\"},{\"value\":\"1\",\"kode_depresi\":\"P003\"},{\"value\":\"1\",\"kode_depresi\":\"P004\"}]', '[[\"G001\",\"0\"],[\"G002\",\"0\"],[\"G003\",\"0\"],[\"G004\",\"0\"],[\"G005\",\"0\"],[\"G006\",\"1\"],[\"G007\",\"1\"],[\"G008\",\"1\"],[\"G009\",\"1\"],[\"G010\",\"1\"],[\"G011\",\"0\"],[\"G012\",\"0\"],[\"G013\",\"0\"],[\"G014\",\"0\"],[\"G015\",\"0\"],[\"G016\",\"0\"],[\"G017\",\"0\"],[\"G018\",\"0\"],[\"G019\",\"0\"],[\"G020\",\"0\"],[\"G021\",\"0\"],[\"G022\",\"0\"],[\"G023\",\"0\"],[\"G024\",\"0\"],[\"G025\",\"0\"],[\"G026\",\"0\"],[\"G027\",\"0\"],[\"G028\",\"0\"]]', '2023-06-19 09:35:51', '2023-06-19 09:35:51');
+(10, '64901d832e366', '[{\"value\":\"0.6\",\"kode_gangguan\":\"P004\"}]', '[[\"G025\",\"0\"]]', '2023-06-19 09:18:59', '2023-06-19 09:18:59'),
+(11, '649020e558613', '[{\"value\":\"1\",\"kode_gangguan\":\"P001\"},{\"value\":\"0.64\",\"kode_gangguan\":\"P002\"},{\"value\":\"0.6\",\"kode_gangguan\":\"P003\"},{\"value\":\"0.8\",\"kode_gangguan\":\"P004\"}]', '[[\"G001\",\"1\"],[\"G002\",\"1\"],[\"G003\",\"1\"],[\"G004\",\"1\"],[\"G005\",\"1\"]]', '2023-06-19 09:33:25', '2023-06-19 09:33:25'),
+(12, '6490210499cf3', '[{\"value\":\"0.2\",\"kode_gangguan\":\"P001\"},{\"value\":\"1\",\"kode_gangguan\":\"P002\"},{\"value\":\"0.84\",\"kode_gangguan\":\"P003\"},{\"value\":\"1\",\"kode_gangguan\":\"P004\"}]', '[[\"G006\",\"1\"],[\"G007\",\"1\"],[\"G008\",\"1\"],[\"G009\",\"1\"],[\"G010\",\"1\"]]', '2023-06-19 09:33:56', '2023-06-19 09:33:56'),
+(13, '64902143246c0', '[{\"value\":\"1\",\"kode_gangguan\":\"P001\"},{\"value\":\"1\",\"kode_gangguan\":\"P002\"},{\"value\":\"1\",\"kode_gangguan\":\"P003\"},{\"value\":\"1\",\"kode_gangguan\":\"P004\"}]', '[[\"G001\",\"0\"],[\"G002\",\"0.2\"],[\"G003\",\"0.2\"],[\"G004\",\"0.6\"],[\"G005\",\"0.6\"],[\"G006\",\"0.2\"],[\"G007\",\"0.2\"],[\"G008\",\"0.4\"],[\"G009\",\"0.4\"],[\"G010\",\"0.2\"],[\"G011\",\"0.4\"],[\"G012\",\"0.6\"],[\"G013\",\"0.8\"],[\"G014\",\"1\"],[\"G015\",\"0.6\"],[\"G016\",\"0.6\"],[\"G017\",\"0.4\"],[\"G018\",\"0.8\"],[\"G019\",\"1\"],[\"G020\",\"1\"],[\"G021\",\"0.8\"],[\"G022\",\"0.6\"],[\"G023\",\"0.8\"],[\"G024\",\"1\"],[\"G025\",\"1\"],[\"G026\",\"1\"],[\"G027\",\"0.8\"],[\"G028\",\"1\"]]', '2023-06-19 09:34:59', '2023-06-19 09:34:59'),
+(14, '64902177cafbd', '[{\"value\":\"1\",\"kode_gangguan\":\"P001\"},{\"value\":\"1\",\"kode_gangguan\":\"P002\"},{\"value\":\"1\",\"kode_gangguan\":\"P003\"},{\"value\":\"1\",\"kode_gangguan\":\"P004\"}]', '[[\"G001\",\"0\"],[\"G002\",\"0\"],[\"G003\",\"0\"],[\"G004\",\"0\"],[\"G005\",\"0\"],[\"G006\",\"1\"],[\"G007\",\"1\"],[\"G008\",\"1\"],[\"G009\",\"1\"],[\"G010\",\"1\"],[\"G011\",\"0\"],[\"G012\",\"0\"],[\"G013\",\"0\"],[\"G014\",\"0\"],[\"G015\",\"0\"],[\"G016\",\"0\"],[\"G017\",\"0\"],[\"G018\",\"0\"],[\"G019\",\"0\"],[\"G020\",\"0\"],[\"G021\",\"0\"],[\"G022\",\"0\"],[\"G023\",\"0\"],[\"G024\",\"0\"],[\"G025\",\"0\"],[\"G026\",\"0\"],[\"G027\",\"0\"],[\"G028\",\"0\"]]', '2023-06-19 09:35:51', '2023-06-19 09:35:51');
 
 -- --------------------------------------------------------
 
@@ -155,7 +155,7 @@ INSERT INTO `gejala` (`id`, `kode_gejala`, `gejala`, `created_at`, `updated_at`)
 CREATE TABLE `keputusan` (
   `id` bigint(20) UNSIGNED NOT NULL,
   `kode_gejala` char(255) NOT NULL,
-  `kode_depresi` char(255) NOT NULL,
+  `kode_gangguan` char(255) NOT NULL,
   `mb` double(8,2) NOT NULL,
   `md` double(8,2) NOT NULL,
   `created_at` timestamp NULL DEFAULT NULL,
@@ -166,7 +166,7 @@ CREATE TABLE `keputusan` (
 -- Dumping data for table `keputusan`
 --
 
-INSERT INTO `keputusan` (`id`, `kode_gejala`, `kode_depresi`, `mb`, `md`, `created_at`, `updated_at`) VALUES
+INSERT INTO `keputusan` (`id`, `kode_gejala`, `kode_gangguan`, `mb`, `md`, `created_at`, `updated_at`) VALUES
 (1, 'G001', 'P001', 1.00, 0.00, NULL, NULL),
 (2, 'G002', 'P001', 0.40, 0.20, NULL, NULL),
 (3, 'G003', 'P001', 0.40, 0.20, NULL, NULL),
@@ -256,7 +256,7 @@ INSERT INTO `migrations` (`id`, `migration`, `batch`) VALUES
 (7, '2022_12_20_020104_create_keputusans_table', 1),
 (8, '2022_12_20_023708_create_kondisi_users_table', 1),
 (9, '2022_12_21_202642_create_diagnosas_table', 1),
-(10, '2022_12_22_143013_create_tingkat_depresis_table', 1),
+(10, '2022_12_22_143013_create_jenis_gangguans_table', 1),
 (11, '2022_12_28_103705_create_artikels_table', 1);
 
 -- --------------------------------------------------------
@@ -305,22 +305,22 @@ CREATE TABLE `personal_access_tokens` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `tingkat_depresi`
+-- Table structure for table `jenis_gangguan`
 --
 
-CREATE TABLE `tingkat_depresi` (
+CREATE TABLE `jenis_gangguan` (
   `id` bigint(20) UNSIGNED NOT NULL,
-  `kode_depresi` char(255) NOT NULL,
-  `depresi` varchar(255) NOT NULL,
+  `kode_gangguan` char(255) NOT NULL,
+  `gangguan` varchar(255) NOT NULL,
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
--- Dumping data for table `tingkat_depresi`
+-- Dumping data for table `jenis_gangguan`
 --
 
-INSERT INTO `tingkat_depresi` (`id`, `kode_depresi`, `depresi`, `created_at`, `updated_at`) VALUES
+INSERT INTO `jenis_gangguan` (`id`, `kode_gangguan`, `gangguan`, `created_at`, `updated_at`) VALUES
 (1, 'P001', 'Pica', NULL, '2023-06-19 09:30:46'),
 (2, 'P002', 'Rumination Disorder', NULL, '2023-06-19 09:31:09'),
 (3, 'P003', 'ARFID', NULL, '2023-06-19 09:31:18'),
@@ -423,9 +423,9 @@ ALTER TABLE `personal_access_tokens`
   ADD KEY `personal_access_tokens_tokenable_type_tokenable_id_index` (`tokenable_type`,`tokenable_id`);
 
 --
--- Indexes for table `tingkat_depresi`
+-- Indexes for table `jenis_gangguan`
 --
-ALTER TABLE `tingkat_depresi`
+ALTER TABLE `jenis_gangguan`
   ADD PRIMARY KEY (`id`);
 
 --
@@ -488,9 +488,9 @@ ALTER TABLE `personal_access_tokens`
   MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
 
 --
--- AUTO_INCREMENT for table `tingkat_depresi`
+-- AUTO_INCREMENT for table `jenis_gangguan`
 --
-ALTER TABLE `tingkat_depresi`
+ALTER TABLE `jenis_gangguan`
   MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --

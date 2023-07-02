@@ -9,7 +9,7 @@ use App\Models\CertainFactor;
 use App\Models\Gejala;
 use App\Models\Keputusan;
 use App\Models\KondisiUser;
-use App\Models\TingkatDepresi;
+use App\Models\JenisGangguan;
 use Illuminate\Database\Seeder;
 use PhpParser\Node\Expr\New_;
 
@@ -33,14 +33,14 @@ class DatabaseSeeder extends Seeder
 
         $keputusan = new Keputusan();
         $gejala = new Gejala();
-        $depresi = new TingkatDepresi();
+        $gangguan = new JenisGangguan();
         $kondisi = new KondisiUser();
 
         $artikel = new Artikel();
 
         Keputusan::insert($keputusan->fillTable());
         Gejala::insert($gejala->fillTable());
-        TingkatDepresi::insert($depresi->fillTable());
+        JenisGangguan::insert($gangguan->fillTable());
         KondisiUser::insert($kondisi->fillTable());
         Artikel::insert($artikel->fillTabel());
     }

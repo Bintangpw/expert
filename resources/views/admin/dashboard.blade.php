@@ -74,7 +74,7 @@
                           <i class="bi bi-x"></i>
                         </div>
                         <div class="ps-3">
-                          <h6>{{$tingkat_depresi->count()}}</h6>
+                          <h6>{{$jenis_gangguan->count()}}</h6>
                           <span class="text-success small pt-1 fw-bold">{{$gejala->count()}}</span> <span class="text-muted small pt-2 ps-1">gejala</span>
 
                         </div>
@@ -188,11 +188,11 @@
                           </tr>
                         </thead>
                         <tbody>
-                            @foreach ($tingkat_depresi as $item)
+                            @foreach ($jenis_gangguan as $item)
                           <tr>
                             <th scope="row"><a href="#">#{{ $loop->iteration }}</a></th>
-                            <td><a href="#" class="text-primary">{{ $item->kode_depresi }}</a></td>
-                            <td>{{ $item->depresi }}</td>
+                            <td><a href="#" class="text-primary">{{ $item->kode_gangguan }}</a></td>
+                            <td>{{ $item->gangguan }}</td>
                           </tr>
                           @endforeach
 

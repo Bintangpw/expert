@@ -10,7 +10,7 @@ use App\Models\Gejala;
 use App\Models\Keputusan;
 use App\Models\Kode_Gejala;
 use App\Models\KondisiUser;
-use App\Models\TingkatDepresi;
+use App\Models\JenisGangguan;
 use GuzzleHttp\Middleware;
 use Illuminate\Http\Request;
 use Illuminate\Support\Arr;
@@ -75,23 +75,23 @@ class DiagnosaController extends Controller
             }
         }
 
-        $depresi = TingkatDepresi::all();
+        $gangguan = JenisGangguan::all();
         $cf = 0;
         // penyakit
         $arrGejala = [];
-        for ($i = 0; $i < count($depresi); $i++) {
+        for ($i = 0; $i < count($gangguan); $i++) {
             $cfArr = [
                 "cf" => [],
-                "kode_depresi" => []
+                "kode_gangguan" => []
             ];
             $res = 0;
-            $ruleSetiapDepresi = Keputusan::whereIn("kode_gejala", $kodeGejala)->where("kode_depresi", $depresi[$i]->kode_depresi)->get();
-            // dd($ruleSetiapDepresi);
-            if (count($ruleSetiapDepresi) > 0) {
-                foreach ($ruleSetiapDepresi as $ruleKey) {
+            $ruleSetiapgangguan = Keputusan::whereIn("kode_gejala", $kodeGejala)->where("kode_gangguan", $gangguan[$i]->kode_gangguan)->get();
+            // dd($ruleSetiapgangguan);
+            if (count($ruleSetiapgangguan) > 0) {
+                foreach ($ruleSetiapgangguan as $ruleKey) {
                     $cf = $ruleKey->mb - $ruleKey->md;
                     array_push($cfArr["cf"], $cf);
-                    array_push($cfArr["kode_depresi"], $ruleKey->kode_depresi);
+                    array_push($cfArr["kode_gangguan"], $ruleKey->kode_gangguan);
                 }
                 $res = $this->getGabunganCf($cfArr);
                 // dd($res);
@@ -118,7 +118,7 @@ class DiagnosaController extends Controller
 
     public function getGabunganCf($cfArr)
     {
-        // if ($cfArr["kode_depresi"][0] == "P004") {
+        // if ($cfArr["kode_gangguan"][0] == "P004") {
         //     # code...
         //     dd($cfArr);
         // }
@@ -133,7 +133,7 @@ class DiagnosaController extends Controller
             // dd($cfArr);
             return [
                 "value" => strval($cfArr["cf"][0]),
-                "kode_depresi" => $cfArr["kode_depresi"][0]
+                "kode_gangguan" => $cfArr["kode_gangguan"][0]
             ];
         }
 
@@ -158,7 +158,7 @@ class DiagnosaController extends Controller
 
         return [
             "value" => "$cfoldGabungan",
-            "kode_depresi" => $cfArr["kode_depresi"][0]
+            "kode_gangguan" => $cfArr["kode_gangguan"][0]
         ];
     }
 
@@ -175,7 +175,7 @@ class DiagnosaController extends Controller
             // print_r(floatval($val["value"]));
             if (floatval($val["value"]) > $int) {
                 $diagnosa_dipilih["value"] = floatval($val["value"]);
-                $diagnosa_dipilih["kode_depresi"] = TingkatDepresi::where("kode_depresi", $val["kode_depresi"])->first();
+                $diagnosa_dipilih["kode_gangguan"] = JenisGangguan::where("kode_gangguan", $val["kode_gangguan"])->first();
                 $int = floatval($val["value"]);
             }
         }
@@ -187,8 +187,8 @@ class DiagnosaController extends Controller
             array_push($kodeGejala, $key[0]);
         }
         // dd($kodeGejala);
-        $kode_depresi = $diagnosa_dipilih["kode_depresi"]->kode_depresi;
-        $pakar = Keputusan::whereIn("kode_gejala", $kodeGejala)->where("kode_depresi", $kode_depresi)->get();
+        $kode_gangguan = $diagnosa_dipilih["kode_gangguan"]->kode_gangguan;
+        $pakar = Keputusan::whereIn("kode_gejala", $kodeGejala)->where("kode_gangguan", $kode_gangguan)->get();
         // dd($pakar);
         $gejala_by_user = [];
         foreach ($pakar as $key) {
@@ -217,7 +217,7 @@ class DiagnosaController extends Controller
         $hasil = $this->getGabunganCf($cfKombinasi);
         // dd($hasil);
 
-        $artikel = Artikel::where('kode_depresi', $kode_depresi)->first();
+        $artikel = Artikel::where('kode_gangguan', $kode_gangguan)->first();
 
         return view('clients.cl_diagnosa_result', [
             "diagnosa" => $diagnosa,
@@ -242,7 +242,7 @@ class DiagnosaController extends Controller
             }
             return [
                 "cf" => $cfComb,
-                "kode_depresi" => ["0"]
+                "kode_gangguan" => ["0"]
             ];
         } else {
             return "Data tidak valid";

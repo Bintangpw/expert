@@ -124,9 +124,9 @@
 											<img src="landing/img/slide/1.jpg" alt="hero image"/>
 										</div>
 										<div class="hero-center-wrap z-bigger">
-											<h1 class="parallax-fade-top">Cek Tingkat <br><span>Depresimu </span></h1> 
+											<h1 class="parallax-fade-top">Cek Tingkat <br><span>gangguanmu </span></h1> 
 										</div>
-										<p class="hero-top-text">Depresimu</p>
+										<p class="hero-top-text">gangguanmu</p>
 									</div>	
 								</div>
 							</div>	
@@ -139,7 +139,7 @@
 											<img src="landing/img/slide/2.jpg" alt="hero image"/>
 										</div>
 										<div class="hero-center-wrap z-bigger">
-											<h1 class="parallax-fade-top">Atasi <br><span>Depresimu</span></h1>
+											<h1 class="parallax-fade-top">Atasi <br><span>gangguanmu</span></h1>
 										</div>
 										<p class="hero-top-text">art direction</p>
 									</div>	

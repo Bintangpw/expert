@@ -2,11 +2,11 @@
 
 namespace App\Policies;
 
-use App\Models\TingkatDepresi;
+use App\Models\JenisGangguan;
 use App\Models\User;
 use Illuminate\Auth\Access\HandlesAuthorization;
 
-class TingkatDepresiPolicy
+class JenisGangguanPolicy
 {
     use HandlesAuthorization;
 
@@ -25,10 +25,10 @@ class TingkatDepresiPolicy
      * Determine whether the user can view the model.
      *
      * @param  \App\Models\User  $user
-     * @param  \App\Models\TingkatDepresi  $tingkatDepresi
+     * @param  \App\Models\JenisGangguan  $JenisGangguan
      * @return \Illuminate\Auth\Access\Response|bool
      */
-    public function view(User $user, TingkatDepresi $tingkatDepresi)
+    public function view(User $user, JenisGangguan $JenisGangguan)
     {
         //
     }
@@ -48,10 +48,10 @@ class TingkatDepresiPolicy
      * Determine whether the user can update the model.
      *
      * @param  \App\Models\User  $user
-     * @param  \App\Models\TingkatDepresi  $tingkatDepresi
+     * @param  \App\Models\JenisGangguan  $JenisGangguan
      * @return \Illuminate\Auth\Access\Response|bool
      */
-    public function update(User $user, TingkatDepresi $tingkatDepresi)
+    public function update(User $user, JenisGangguan $JenisGangguan)
     {
         //
     }
@@ -60,10 +60,10 @@ class TingkatDepresiPolicy
      * Determine whether the user can delete the model.
      *
      * @param  \App\Models\User  $user
-     * @param  \App\Models\TingkatDepresi  $tingkatDepresi
+     * @param  \App\Models\JenisGangguan  $JenisGangguan
      * @return \Illuminate\Auth\Access\Response|bool
      */
-    public function delete(User $user, TingkatDepresi $tingkatDepresi)
+    public function delete(User $user, JenisGangguan $JenisGangguan)
     {
         //
     }
@@ -72,10 +72,10 @@ class TingkatDepresiPolicy
      * Determine whether the user can restore the model.
      *
      * @param  \App\Models\User  $user
-     * @param  \App\Models\TingkatDepresi  $tingkatDepresi
+     * @param  \App\Models\JenisGangguan  $JenisGangguan
      * @return \Illuminate\Auth\Access\Response|bool
      */
-    public function restore(User $user, TingkatDepresi $tingkatDepresi)
+    public function restore(User $user, JenisGangguan $JenisGangguan)
     {
         //
     }
@@ -84,10 +84,10 @@ class TingkatDepresiPolicy
      * Determine whether the user can permanently delete the model.
      *
      * @param  \App\Models\User  $user
-     * @param  \App\Models\TingkatDepresi  $tingkatDepresi
+     * @param  \App\Models\JenisGangguan  $JenisGangguan
      * @return \Illuminate\Auth\Access\Response|bool
      */
-    public function forceDelete(User $user, TingkatDepresi $tingkatDepresi)
+    public function forceDelete(User $user, JenisGangguan $JenisGangguan)
     {
         //
     }

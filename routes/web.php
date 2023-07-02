@@ -2,9 +2,9 @@
 
 use App\Http\Controllers\DiagnosaController;
 use App\Http\Controllers\GejalaController;
-use App\Http\Controllers\TingkatDepresiController;
+use App\Http\Controllers\JenisGangguanController;
 use App\Models\Diagnosa;
-use App\Models\TingkatDepresi;
+use App\Models\JenisGangguan;
 use App\Models\KondisiUser;
 use App\Models\Gejala;
 use App\Models\User;
@@ -34,7 +34,7 @@ Route::middleware('auth')->group(function () {
             'gejala' => Gejala::all(),
             'kondisi_user' => KondisiUser::all(),
             'user' => User::all(),
-            'tingkat_depresi' => TingkatDepresi::all()
+            'jenis_gangguan' => JenisGangguan::all()
 
         ];
         return view('admin.dashboard', $data);
@@ -61,7 +61,7 @@ Route::middleware('auth')->group(function () {
     Route::resource('/spk', DiagnosaController::class)->only('index');
 });
 Route::resource('/gejala', GejalaController::class);
-Route::resource('/depresi', TingkatDepresiController::class);
+Route::resource('/gangguan', JenisGangguanController::class);
 
 
 Route::get('/form', function () {
